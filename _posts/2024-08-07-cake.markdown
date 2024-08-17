@@ -1,0 +1,15 @@
+---
+layout: posts
+title:  "Cake Example"
+date:   2024-08-07 19:36:07 +0000
+categories: work
+tags: Education
+description: this is an article about education
+header:
+  overlay_image: https://unsplash.com/photos/a-cake-sitting-on-top-of-a-wooden-table--ldGQDRxMKo
+  teaser: https://unsplash.com/photos/a-cake-sitting-on-top-of-a-wooden-table--ldGQDRxMKo
+  caption: "Photo credit: [Cake](https://unsplash.com)"
+---
+> To see a preview of this project go to [Piece of Cake on Codespaces](https://crispy-capybara-pjr656rr7jwrhv4q.github.dev/) and type 'npm start' in the terminal. An open in browser button will appear once the app is loaded.
+
+# This is an example!!!
