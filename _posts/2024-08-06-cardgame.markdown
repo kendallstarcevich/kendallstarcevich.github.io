@@ -1,0 +1,15 @@
+---
+layout: posts
+title:  "Card Game Example"
+date:   2024-08-06 19:36:07 +0000
+categories: work
+tags: Education
+description: this is an article about education
+header:
+  overlay_image: https://images.unsplash.com/photo-1502691876148-a84978e59af8
+  teaser: https://images.unsplash.com/photo-1502691876148-a84978e59af8
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+---
+> To see a preview of this project go to [Shuffling Cards on Codespaces](https://laughing-parakeet-pjr656rrjvxjf6qw5.github.dev/) and select the 'index.html' file and then 'go live' on the status bar. 
+
+# This is an example!!!
