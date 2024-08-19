@@ -1,11 +1,16 @@
 Kendall Starcevich:
   name        : "Kendall Starcevich"
-  bio         : "Reach out via the links below"
-  avatar      : "https://placehold.co/400"
+  bio         : "Reach out here:"
+  avatar      : "/assets/images/initials.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.mywebsite.com"
+      url: "mailto:kendall.starcevich@drake.edu"
+      
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/kendall-starcevich-du2026/" 
+    
+    - label: "Phone"
+      icon: "fas fa-phone alt"
+      url: "tel:+1 9137018962"
