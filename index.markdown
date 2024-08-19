@@ -8,5 +8,5 @@ author_profile: true
 ---
 
 ![kendall starcevich](/assets/images/headshot.jpg){: .avatar}
-# Hi there! I'm Kendall Starcevich
-I am a blah blah blah. Check out some of my favorite work at [My Work](/mywork) or [My Writing](/mywriting)
+# Hi - I'm Kendall!
+I am a Division I athlete and junior at Drake University majoring in **Computer Science**, **Artificial Intelligence**, and **Data Analytics**. Learn more about me at [About Me](/about) or view some of my experience and projects at [My Work](/mywork).

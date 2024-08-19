@@ -1,9 +1,9 @@
 Kendall Starcevich:
-  name        : "Kendall Starcevich"
+  name        : "KENDALL STARCEVICH"
   bio         : "Reach out here:"
   avatar      : "/assets/images/initials.jpg"
   links:
-    - label: "Email"
+    - label: "kendall.starcevich@drake.edu"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:kendall.starcevich@drake.edu"
       
@@ -11,6 +11,6 @@ Kendall Starcevich:
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/kendall-starcevich-du2026/" 
     
-    - label: "Phone"
+    - label: "913-701-8962"
       icon: "fas fa-phone alt"
       url: "tel:+1 9137018962"

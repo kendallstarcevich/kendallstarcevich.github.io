@@ -1,5 +1,5 @@
 ---
-title: My Writing
+title: My Accomplishments
 layout: archive
 author: Kendall Starcevich
 author_profile: true

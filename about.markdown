@@ -1,9 +1,9 @@
 ---
 layout: archive
-title: About
+title: About Me
 permalink: /about/
+author_profile: true
 ---
-# Hi! I'm Kendall Starcevich
 Tell the story of your career.
 What are you passionate about?
 Include a call to action.: "I am currently looking for work..."
