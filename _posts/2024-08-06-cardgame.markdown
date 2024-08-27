@@ -3,13 +3,13 @@ layout: posts
 title:  "Card Game Example"
 date:   2024-08-06 19:36:07 +0000
 categories: work
-tags: Education
-description: this is an article about education
+tags: AI
+description: This is an example of my first AI project
 header:
-  overlay_image: https://unsplash.com/photos/jack-of-diamonds-playing-card-p1Xx215ooiM
-  teaser: https://unsplash.com/photos/jack-of-diamonds-playing-card-p1Xx215ooiM
-  caption: "Photo credit: [Playing Card](https://unsplash.com)"
+  overlay_image: https://unsplash.com/photos/an-electric-vehicle-parked-in-a-park-next-to-picnic-tables-9NTF1G8K4jo
+  teaser: https://unsplash.com/photos/an-electric-vehicle-parked-in-a-park-next-to-picnic-tables-9NTF1G8K4jo
+  caption: "Photo credit: [Street Bot](https://unsplash.com)"
 ---
-> To see a preview of this project go to [Shuffling Cards on Codespaces](https://laughing-parakeet-pjr656rrjvxjf6qw5.github.dev/) and select the 'index.html' file and then 'go live' on the status bar. 
+> Testing to see an [AI Assignment](https://colab.research.google.com/drive/193UnFif2DSnkNG1cDOMplGJQIPzUi73_?usp=sharing)
 
 # This is an example!!!
