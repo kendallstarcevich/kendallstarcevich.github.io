@@ -4,4 +4,4 @@ layout: archive
 author: Kendall Starcevich
 author_profile: true
 ---
-I don't have writing so can maybe edit this...
+Below you will find some of my awards and scholarships that I have recieved.

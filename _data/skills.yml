@@ -1,15 +1,23 @@
 technical:
- - title: CSS and SCSS
-   level: Intermediate
- - title: HTML5
-   level: Intermediate
- - title: JavaScrpt
-   level: Advanced
- - title: ReactJS
-   level: Advanced
-
-soft:
- - title: Writing
-   level: Intermediate
- - title: Leadership
-   level: Intermediate
+  - title: Python
+    level: Intermediate
+  - title: Java
+    level: Intermediate
+  - title: SQL
+    level: Intermediate
+  - title: R
+    level: Beginner
+  - title: SAS
+    level: Beginner
+  - title: BusinessObjects
+    level: Beginner
+  - title: Power BI/Tableau
+    level: Beginner
+  - title: CSS/SCSS
+    level: Beginner
+  - title: HTML
+    level: Beginner
+  - title: JavaScript
+    level: Beginner
+  - title: Git
+    level: Beginner
