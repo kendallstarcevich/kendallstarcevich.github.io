@@ -14,4 +14,13 @@ Balancing the demands of being a Division I athlete while managing three majors,
 ### Technical Skills
 
 {% include technicalskills.md %}
+## Relevant Courses
+### Computer Science: 
+Object Oriented Programming, Artificial Intelligence, Machine Learning, Human-Computer Interaction, Algorithm Analysis, Computer Organization and Assembly
+### Data Analytics:
+Database Management, Probability for Analytics, Intro to R and SAS, Microsoft Office Tools for Business Analytics
+### Math: 
+Calc 1, Calc 2, Linear Algebra, Multivariable Calculus, Discrete Mathematics
+### Computer Humanities: 
+Computer Ethics, the Philosophy of Minds, Brains, and Computers
 
