@@ -16,11 +16,12 @@ Balancing the demands of being a Division I athlete while managing three majors,
 {% include technicalskills.md %}
 ## Relevant Courses
 ### Computer Science: 
-Object Oriented Programming, Artificial Intelligence, Machine Learning, Human-Computer Interaction, Algorithm Analysis, Computer Organization and Assembly
+Object Oriented Programming, Artificial Intelligence, Machine Learning, Human-Computer Interaction, Algorithm Analysis, Computer Organization and Assembly, Software Engineering,\* Artificial Intelligence Capstone\*
 ### Data Analytics:
-Database Management, Probability for Analytics, Intro to R and SAS, Microsoft Office Tools for Business Analytics
+Database Management, Probability for Analytics, Intro to R and SAS, Microsoft Office Tools for Business Analytics, Statistics II\*
 ### Math: 
 Calc 1, Calc 2, Linear Algebra, Multivariable Calculus, Discrete Mathematics
 ### Computer Humanities: 
-Computer Ethics, the Philosophy of Minds, Brains, and Computers
+Computer Ethics, the Philosophy of Minds, Brains, and Computers, Interdisciplinary Perspectives on Artificial Intelligence, Nature of Intelligence and Relationship to Artificial Intelligence,\* AI in Fiction\*
 
+*Courses denoted with * will be taken in Spring 2025*

@@ -14,3 +14,7 @@ Kendall Starcevich:
     - label: "913-701-8962"
       icon: "fas fa-phone alt"
       url: "tel:+1 9137018962"
+
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/kendallstarcevich" 
