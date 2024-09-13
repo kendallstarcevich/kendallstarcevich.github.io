@@ -2,6 +2,7 @@
 layout: posts
 title:  "Street Sweeper World Projects"
 date:   2024-02-13 19:36:07 +0000
+highlight_home: true
 categories: work
 tags: AI
 description: These are three projects that I completed relating to the Street Sweeper World in my AI course.
@@ -10,7 +11,9 @@ header:
   teaser: "/assets/images/streetsweeper.jpg"
   caption: "Photo credit: [Unsplash](https://unsplash.com)"
 ---
-> Three bots that interact with similated street network enviromnment to clean streets.
+> Three AI bots that interact with similated street network enviromnment to clean streets.
+
+![Street Sweeper Map](/assets/images/map.png)
 
 # Project 1: Street Sweeper World
 I was given a reflex agent using the OSMnx Library to retreieve real map data from OpenStreetMap that can perceive its battery life, meters cleaned, and current location, as well as any useful data about the street, such as its real-life name, length, speed limit, travel time, and cleanliness. I implemented a model-based agent that made rational decisions based on the current percepts and the state that I was keeping track of. I also described why this performed better than the reflex agent.

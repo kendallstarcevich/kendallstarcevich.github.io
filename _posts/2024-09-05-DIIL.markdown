@@ -1,0 +1,30 @@
+---
+layout: posts
+title:  "Drake Insurance Innovation Lab Internship"
+date:   2024-09-05 19:36:07 +0000
+highlight_home: true
+categories: work
+tags: Internships
+description: This is a description of my internship with DIIL.
+header:
+  overlay_image: "/assets/images/drakebackground.png"
+  teaser: "/assets/images/drake.png"
+  caption: "Photo credit: [Drake University](https://www.drake.edu/)"
+---
+> My experience with Drake Insurance Innovation Lab Internship.
+
+# Drake Insurance Innovation Lab Internship
+I am excited to get started this fall with a new internship through the University:
+
+• As the group’s **Data Analyst**, set to develop strategic solutions for **Wellabe's** new
+rewards program launch, delivering recommendations to senior executives.
+
+• Scheduled for discussions with leaders from **Global Insurance Accelerator** and
+**BrokerTech Ventures** on mentorship and accelerator processes.
+
+• Will attend regulatory and investment strategy seminars with Iowa Insurance
+Commissioner and venture capitalists.
+
+• Preparing to analyze innovation practices with ten carriers and brokers, leading to an
+**additional consulting project next spring**.
+
