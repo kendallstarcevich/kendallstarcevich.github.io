@@ -15,5 +15,5 @@ header:
 
 # IYF Internship Program
 ## <a href="https://www.youtube.com/watch?v=AClYYkHYdGs" target="_blank"><strong>Iowa Insurance Hall of Fame Scholarship Video</strong></a>
-In addition to my Internship at Wellmark, I participated in an Internship program for first and second year college interns in different financial and insurance companies across Iowa. I describe my experience in my video link above.
+In addition to my Internship at Wellmark, I participated in an Internship program for first and second year college interns in different financial and insurance companies across Iowa. I describe my experience in my video link above, which I **received a scholarship for**.
 
