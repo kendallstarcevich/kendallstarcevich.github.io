@@ -7,9 +7,9 @@ categories: work
 tags: Internships
 description: This is a description of my internship with DIIL.
 header:
-  overlay_image: "/assets/images/drakebackground.png"
+  overlay_image: "/assets/images/background4.jpg"
   teaser: "/assets/images/drake.png"
-  caption: "Photo credit: [Drake University](https://www.drake.edu/)"
+  caption: "Photo credit: [Unsplash](https://www.unsplash.com/)"
 ---
 > My experience with Drake Insurance Innovation Lab Internship.
 
@@ -28,3 +28,17 @@ Commissioner and venture capitalists.
 • Preparing to analyze innovation practices with ten carriers and brokers, leading to an
 **additional consulting project next spring**.
 
+# Official Consluting Proposal
+**Data Analysis** – Tags/Segments: – given access and exposure to Snowflake and or Databricks.  
+
+**Objective**: Optimize engagement personalization using data analysis. Considering how important personalization is to our program, identify how you would segment our population and why? Highlight the value to the program, how these segments impact engagement, and what does your research show.  
+
+• Wellabe to provide De-identified Data: 
+
+  • **Deep Sync/B2E**: Analyze customer data to identify patterns related to Experian, publicly available data.  
+
+  • **Purchase/Product**: Explore customer segmentation based on purchasing behavior, state, product, user demographic data (male, female, age) 
+
+  • **Claims**: Study insurance claims data to identify type of claims, time of claims (is there an increase during a specific time).  
+
+• **Proposed Tags/Segments**: Develop data-driven tags and segments that allow personalized communication and provide recommendations.  

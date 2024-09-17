@@ -4,7 +4,7 @@ title:  "OOP Quiz GUI"
 date:   2023-12-15 19:36:07 +0000
 highlight_home: true
 categories: work
-tags: OOP
+tags: OOP Java
 description: This is a description of my final OOP project.
 header:
   overlay_image: "/assets/images/background4.jpg"

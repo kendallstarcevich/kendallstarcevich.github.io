@@ -3,7 +3,7 @@ layout: posts
 title:  "Constraint Satisfaction Problem (CSP)"
 date:   2024-04-30 19:36:07 +0000
 categories: work
-tags: AI
+tags: AI Python
 description: This is a project from my AI class where I developed a real-life solution to a CSP.
 header:
   overlay_image: "/assets/images/background3.jpg"

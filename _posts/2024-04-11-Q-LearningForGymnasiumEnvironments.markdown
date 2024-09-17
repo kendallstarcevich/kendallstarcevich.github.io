@@ -3,7 +3,7 @@ layout: posts
 title:  "Q-Learning for Gymnasium Environments"
 date:   2024-04-11 19:36:07 +0000
 categories: work
-tags: AI
+tags: AI Python
 description: This is a project I completed in my AI class working to implement a Q-Learning Algorithm. 
 header:
   overlay_image: "/assets/images/background2.jpg"

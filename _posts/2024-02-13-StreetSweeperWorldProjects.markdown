@@ -4,7 +4,7 @@ title:  "Street Sweeper World Projects"
 date:   2024-02-13 19:36:07 +0000
 highlight_home: true
 categories: work
-tags: AI
+tags: AI Python
 description: These are three projects that I completed relating to the Street Sweeper World in my AI course.
 header:
   overlay_image: "/assets/images/background1.jpg"
