@@ -29,7 +29,7 @@ url: "http://kendallstarcevich.github.io" # the base hostname & protocol for you
 github_username:  kendallstarcevich
 search: true
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: "minima"
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
