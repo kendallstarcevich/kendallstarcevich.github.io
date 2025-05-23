@@ -6,7 +6,10 @@ author_profile: true
 ---
 Below you will find some of my awards and scholarships that I have recieved.
 ## Awards
-**2024 Missouri Valley Conference Student-Athlete Commissioner’s Academic Excellence Award**
+
+**2025 Missouri Valley Conference Board of Directors Academic Excellence Award:** Minimum cumulative GPA of 3.80, letter in athletics for at least two seasons, and be within 18 credit hours of graduation.
+
+**2024 and 2025 Missouri Valley Conference Student-Athlete Commissioner’s Academic Excellence Award**
 
 **Drake University President's List**: Awarded to undergraduate students maintaining a **4.0 GPA** - received all years.
 
