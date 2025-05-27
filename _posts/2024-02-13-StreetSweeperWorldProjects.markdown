@@ -24,3 +24,5 @@ Now, using the same environment and libraries as before, you can get information
 # Project 3: Iterative Improvement Avoiding Local Optima
 I was given a bot that implements an iterative improvement algorithm that attempts to avoid getting stuck in local minima (a hill-climbing algorithm), and asked to improve this basic approach with a different algorithm.
 [Project 3 Colab Link](https://colab.research.google.com/drive/1D0nyi_Y8P5Uzqp1GwlHLSyy4GBUltop5?usp=sharing)
+
+### Additional work:

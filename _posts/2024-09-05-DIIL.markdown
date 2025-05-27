@@ -42,3 +42,5 @@ Commissioner and venture capitalists.
   • **Claims**: Study insurance claims data to identify type of claims, time of claims (is there an increase during a specific time).  
 
 • **Proposed Tags/Segments**: Develop data-driven tags and segments that allow personalized communication and provide recommendations.  
+
+### Additional work:
