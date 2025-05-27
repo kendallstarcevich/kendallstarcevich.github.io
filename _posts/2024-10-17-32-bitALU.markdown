@@ -16,7 +16,6 @@ header:
 
 Test Vector:
 ![Test Vector](/assets/images/testvector.png)
-
 Result of Test Vector:
 ![Result of Test Vector](/assets/images/testresult.png)
 Complete 32-bit Adder/Subtractor:
