@@ -13,8 +13,11 @@ header:
 > A 32-bit ALU built in Logism that allows for adding, subtracting, and, or, not, xor, and slt operations. Tests Included.
 
 # Computer Organization Project: 32-bit ALU
-
+Result of Test Vector:
 ![Result of Test Vector](/assets/images/testresult.png)
+Complete 32-bit Adder/Subtractor:
 ![Complete 32-bit Adder/Subtractor](/assets/images/addsub.png)
+Full Adder:
 ![Full Adder](/assets/images/fulladder.png)
+ALU:
 ![ALU](/assets/images/ALU.png)
