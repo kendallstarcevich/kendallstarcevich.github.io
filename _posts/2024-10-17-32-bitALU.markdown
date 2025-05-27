@@ -1,0 +1,20 @@
+---
+layout: posts
+title:  "32-bit ALU in Logism"
+date:   2024-10-17 19:36:07 +0000
+categories: work
+tags: MIPS
+description: A 32-bit ALU built in Logism that allows for adding, subtracting, and, or, not, xor, and slt operations. Tests Included.
+header:
+  overlay_image: "/assets/images/background2.jpg"
+  teaser: "/assets/images/alu.jpeg"
+  caption: "Photo credit: [Unsplash](https://unsplash.com)"
+---
+> A 32-bit ALU built in Logism that allows for adding, subtracting, and, or, not, xor, and slt operations. Tests Included.
+
+# Computer Organization Project: 32-bit ALU
+
+![Result of Test Vector](/assets/images/testresult.png)
+![Complete 32-bit Adder/Subtractor](/assets/images/addsub.png)
+![Full Adder](/assets/images/fulladder.png)
+![ALU](/assets/images/ALU.png)
