@@ -6,23 +6,43 @@ categories: work
 tags: MIPS
 description: A 32-bit ALU built in Logism that allows for adding, subtracting, and, or, not, xor, and slt operations. Tests Included.
 header:
-  overlay_image: "/assets/images/background2.jpg"
+  overlay_image: "/assets/images/combackground.jpg"
   teaser: "/assets/images/alu.jpeg"
   caption: "Photo credit: [Unsplash](https://unsplash.com)"
 ---
 > A 32-bit ALU built in Logism that allows for adding, subtracting, and, or, not, xor, and slt operations. Tests Included.
 
-# Computer Organization Project: 32-bit ALU
+# Computer Organization Project: 32-bit ALU Design
 
-Test Vector:
-![Test Vector](/assets/images/testvector.png)
-Result of Test Vector:
-![Result of Test Vector](/assets/images/testresult.png)
-Complete 32-bit Adder/Subtractor:
+This project was part of a course focused on computer organization and architecture, covering internal data representation, assembly language, memory addressing, and digital circuit design.
+
+I designed a 32-bit Arithmetic Logic Unit (ALU) in Logisim capable of performing several core operations:
+add, sub, and, or, not, xor, and slt.
+
+Key features include:
+
+- Efficient reuse of a single adder for both addition and subtraction
+
+- SLT (set-on-less-than) logic built on top of the adder circuit
+
+- A custom test vector system with descriptive comments for validation
+
+Deliverables include circuit diagrams of the ALU and components, a well-documented test vector, and test result screenshots confirming correct functionality.
+
+## Core Components:
+
+**Complete 32-bit Adder/Subtractor**:
 ![Complete 32-bit Adder/Subtractor](/assets/images/addsub.png)
-Full Adder:
+**Full Adder**:
 ![Full Adder](/assets/images/fulladder.png)
-ALU:
+**Full ALU Design**:
 ![ALU](/assets/images/ALU.png)
+
+## Testing and Verification:
+
+**Custom Test Vector:**
+![Test Vector](/assets/images/testvector.png)
+**Result of Test Vector:**
+![Result of Test Vector](/assets/images/testresult.png)
 
 ### Additional work:

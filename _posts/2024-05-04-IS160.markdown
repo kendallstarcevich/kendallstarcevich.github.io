@@ -3,7 +3,7 @@ layout: posts
 title:  "MVC Men’s & Women’s Basketball Database"
 date:   2024-05-04 19:36:07 +0000
 categories: work
-tags: Analysis SQL
+tags: SQL
 description: Using SQL to analyze to understand each MVC institution’s financial impacts on both the men’s and the women’s basketball teams pertaining to each individual team, gender disparities, and size and locational impacts.
 header:
   overlay_image: "/assets/images/background2.jpg"

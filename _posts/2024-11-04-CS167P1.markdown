@@ -1,0 +1,44 @@
+---
+layout: posts
+title:  "Graduate Admission Prediction Project"
+date:   2024-11-04 19:36:07 +0000
+highlight_home: true
+categories: work
+tags: Python ML
+description: A Machine Learning project consisting of kNN, Decision Tree, and Random Forest models that predict the chance of graduate college admission based on admission profiles.
+header:
+  overlay_image: "/assets/images/admission.jpg"
+  teaser: "/assets/images/ML.jpg"
+  caption: "Photo credit: [Unsplash](https://unsplash.com)"
+---
+> A Machine Learning project consisting of kNN, Decision Tree, and Random Forest models that predict the chance of graduate college admission based on admission profiles.
+
+# Graduate Admission Prediction Project
+
+This project analyzes a Kaggle dataset containing 400 university admission profiles, featuring GRE scores, TOEFL scores, university ratings, statement of purpose (SOP) and recommendation letter (LOR) strengths, undergraduate GPA, research experience, and the chance of admission.
+
+The goal was to build regression models that predict the chance of admission based on the other features. This type of predictive tool could be valuable for prospective graduate students to estimate their admission likelihood before investing time and money into applications.
+
+I implemented and compared several regression algorithms including:
+
+- k-Nearest Neighbors (kNN), both weighted and unweighted,
+
+- Decision Tree,
+
+- Random Forest.
+
+The [Complete Project Colab Link](https://colab.research.google.com/drive/1y85FcBFOrVI8ds3xRVl4tKKSombP5dHx?usp=sharing) includes:
+
+- Data preprocessing and normalization code,
+
+- Model training, tuning, and evaluation scripts,
+
+- Test results with MAE scores,
+
+- Visualizations such as feature importance plots,
+
+- Detailed comments explaining each step.
+
+
+
+### Additional work:

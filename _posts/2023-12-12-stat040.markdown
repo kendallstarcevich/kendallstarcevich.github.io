@@ -3,7 +3,7 @@ layout: posts
 title:  "Effects on Employment Rates & Income"
 date:   2023-12-12 19:36:07 +0000
 categories: work
-tags: Analysis R SAS
+tags: R SAS
 description: Using SAS and R programming languages to interpret data based on employment rates and income of different college majors after graduation, looking at the effect of gender and obtaining a graduate degree on income and employment rates.
 header:
   overlay_image: "/assets/images/background1.jpg"

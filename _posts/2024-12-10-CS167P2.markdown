@@ -1,0 +1,38 @@
+---
+layout: posts
+title:  "Fine-Grained Visual Categorization (FGVC) of Bird Species"
+date:   2024-12-10 19:36:07 +0000
+highlight_home: true
+categories: work
+tags: Python ML
+description: Comparison of convolutional neural network (CNN) models' abilities to accurately classify bird species
+header:
+  overlay_image: "/assets/images/birds.jpg"
+  teaser: "/assets/images/birdthumb.jpg"
+  caption: "Photo credit: [Unsplash](https://unsplash.com)"
+---
+> Comparison of convolutional neural network (CNN) models' abilities to accurately classify bird species
+
+# Fine-Grained Visual Categorization (FGVC) of Bird Species
+
+In this deep learning project, I developed and evaluated convolutional neural network (CNN) models to accurately classify bird species from images using the Bird Species Dataset, which includes 25 different categories.
+
+I implemented and compared three powerful CNN architectures—AlexNet, VGGNet, and ResNet—with various optimizers (Adam, SGD, RMSprop) to determine which combination yielded the highest classification accuracy. All models were trained using PyTorch, with standard preprocessing (resizing, tensor conversion, and ImageNet normalization), and evaluated using accuracy, confusion matrices, and average loss curves to track performance and learning progress.
+
+Key techniques used include:
+
+- Transfer learning and model fine-tuning
+
+- Data batching and shuffling using DataLoader
+
+- Model evaluation with cross-entropy loss and visual diagnostics
+
+- Hyperparameter tuning (learning rate, batch size, epochs)
+
+The [Complete Project Colab Link](https://colab.research.google.com/drive/1eI6C4KDDTpx-EyrL9ggbJvpgYM98On0a?usp=sharing) includes the code, training visualizations, model comparisons, and detailed conclusions about model behavior and optimizer effects.
+
+
+
+
+
+### Additional work:

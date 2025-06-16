@@ -1,0 +1,25 @@
+---
+layout: posts
+title:  "Amazon Cognito Demo"
+date:   2025-04-17 19:36:07 +0000
+highlight_home: true
+categories: work
+tags: AWS Development
+description: A tutorial that will walk through a step-by-step demo that creates a simple locally hosted web app with an Amazon Cognito powered login/signup.
+header:
+  overlay_image: "/assets/images/cognitob.jpg"
+  teaser: "/assets/images/cognito.jpeg"
+  caption: "Photo credit: [Unsplash](https://unsplash.com)"
+---
+> A tutorial that will walk through a step-by-step demo that creates a simple locally hosted web app with an Amazon Cognito powered login/signup.
+
+# Amazon Cognito Demo
+I taught myself Amazon Cognito, an AWS User Authentication and Access Control service. I created a tutorial that will walk through a step-by-step demo that creates a simple locally hosted web app with an Amazon Cognito powered login/signup.
+
+The [tutorial link](https://hackmd.io/@IZ4dLAWgT-OlUrBGFei8ug/rkTSuXYlex#Reflection) includes an in depth explanation of Amazon Cognito's uses, pricing, and pros and cons along with the code, project summary, setup and run instructions, and a [demo video](https://www.youtube.com/watch?v=jWrWSsUD_tE).
+
+
+
+
+
+### Additional work:

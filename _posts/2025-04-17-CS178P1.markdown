@@ -1,0 +1,25 @@
+---
+layout: posts
+title:  "Airbnb Seattle Web App (Flask + AWS)"
+date:   2025-04-17 19:36:07 +0000
+highlight_home: true
+categories: work
+tags: AWS Python Flask Development SQL
+description: A full-stack Flask web application for browsing and managing Seattle Airbnb listings and reviews.
+header:
+  overlay_image: "/assets/images/airbnb.jpg"
+  teaser: "/assets/images/airbnbthumb.png"
+  caption: "Photo credit: [Unsplash](https://unsplash.com)"
+---
+> A full-stack Flask web application for browsing and managing Seattle Airbnb listings and reviews.
+
+# Airbnb Seattle Web App Project
+A full-stack Flask web application for browsing and managing Seattle Airbnb listings and reviews. It integrates a MySQL database (AWS RDS) for listings/reviews and DynamoDB for user authentication. Users can sign up, log in, post/delete reviews, and browse listings by price, room type, and neighborhood. Deployed on AWS EC2.
+
+The [Github Repo](https://github.com/kendallstarcevich/CS178Project1) includes the code, project summary, setup and run instructions, and a [demo video] (https://www.youtube.com/watch?v=qYj85HC9niE).
+
+
+
+
+
+### Additional work:

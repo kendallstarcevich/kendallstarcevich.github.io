@@ -1,0 +1,62 @@
+---
+layout: posts
+title:  "MIPS CPU Design Project"
+date:   2024-11-05 19:36:07 +0000
+categories: work
+tags: MIPS
+description: A MIPS CPU in Logisim to support a wider range of instructions, including arithmetic, logical, and set-on-less-than operations
+header:
+  overlay_image: "/assets/images/combackground.jpg"
+  teaser: "/assets/images/CPUthumb.jpeg"
+  caption: "Photo credit: [Unsplash](https://unsplash.com)"
+---
+> A MIPS CPU in Logisim to support a wider range of instructions, including arithmetic, logical, and set-on-less-than operations
+
+# Computer Organization Project: MIPS CPU Design Project
+
+For this project, I extended a partial MIPS CPU in Logisim to support a wider range of instructions, including arithmetic, logical, and set-on-less-than operations (add, addi, sub, and, or, xor, andi, ori, xori, slt, slti). I wrote a custom MIPS program in MARS, manually loaded its machine code into the instruction memory, and verified correct execution using simulated register outputs.
+Deliverables include screenshots of the MIPS program, control unit truth table, circuit diagrams, and register outputs—with a written explanation confirming the correctness of computed values.
+
+## RegisterContents Explanation:
+
+The value '3' is correct in Register $13 because it is the final result of every line before. Here are the comments that I put in my code that explain each line:
+
+```
+# Store 10 in $2
+
+# Store 5 in $3
+
+# 10 or 5 = 15 in $4
+
+# 15 or 0 = 15 in $5
+
+# 10 xor 5 = 15 in $6
+
+# 5 xor 2 = 7 in $7
+
+# 15 and 7 = 7 in $8
+
+# 7 and 3 = 3 in $9
+
+# 3 < 7 = 1 in $10
+
+# 1 < 1 = 0 in $11
+
+# 7 + 0 = 7 in $12
+
+# 10 - 7 = 3 FINAL ANSWER in $13
+```
+## Logisim CPU Diagram:
+![CPU](/assets/images/CPU.png)
+
+## Components and Control Logic:
+**Control Circut**:
+![Control Circuit](/assets/images/controlcircuit.png)
+**Control Unit Truth Table**:
+![Control Unit Truth Table](/assets/images/truthtable.png)
+
+## Program Execution:
+**MIPS Test Segment (MARS)**:
+![MIPS Test Segment](/assets/images/testsegment.png)
+
+### Additional work:
