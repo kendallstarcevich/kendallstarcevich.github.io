@@ -4,7 +4,7 @@ title:  "Wellmark Health Services Operations & Systems Intern"
 date:   2024-05-20 19:36:07 +0000
 highlight_home: true
 categories: work
-tags: Internships
+tags: Internships SQL
 description: This is a description of my internship with Wellmark summer 2024.
 header:
   overlay_image: "/assets/images/wellmarkbackground.jpg"

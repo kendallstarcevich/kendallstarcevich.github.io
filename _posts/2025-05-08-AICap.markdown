@@ -1,0 +1,28 @@
+---
+layout: posts
+title:  "HIPAAi: Secure HIPAA Compliant AI Chatbot"
+date:   2025-05-08 19:36:07 +0000
+highlight_home: true
+categories: work
+tags: AI Python
+description: AI Capstone Project that creates a HIPAA Compliant AI Chatbot using Langchain.
+header:
+  overlay_image: "/assets/images/hipaa.png"
+  teaser: "/assets/images/hipaathumb.png"
+  caption: "Photo credit: [Unsplash](https://unsplash.com)"
+---
+> AI Capstone Project that creates a HIPAA Compliant AI Chatbot using Langchain.
+
+# AI Capstone Secure HIPAA Compliant AI Chatbot (HIPAAi)
+My Capstone Group developed a secure, role-based AI chatbot tailored for the health insurance industry to theoretically ensure compliance with HIPAA regulations. The chatbot uses a custom dataset and restricts information access based on user roles through a secure login system. We implemented early fine-tuning, role-specific permissions, and began integrating data privacy features. Built with LangChain and GPT-4, the project aims to offer a trusted conversational interface for sensitive insurance queries.
+
+Download the full presentation <a href="/assets/images/HIPPAIcapstone.pdf" download><strong>here</strong></a>, including a more in-depth overview and the code.
+
+
+You can download the training dataset <a href="/assets/images/mergedinfo.pdf" download><strong>here</strong></a>.
+
+
+
+
+
+### Additional work:

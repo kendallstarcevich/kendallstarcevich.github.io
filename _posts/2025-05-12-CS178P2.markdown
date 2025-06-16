@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Amazon Cognito Demo"
-date:   2025-04-17 19:36:07 +0000
+date:   2025-05-12 19:36:07 +0000
 highlight_home: true
 categories: work
 tags: AWS Development
