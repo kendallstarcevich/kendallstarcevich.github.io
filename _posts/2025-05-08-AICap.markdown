@@ -18,6 +18,7 @@ My Capstone Group developed a secure, role-based AI chatbot tailored for the hea
 
 Download the full presentation <a href="/assets/images/HIPPAIcapstone.pdf" download><strong>here</strong></a>, including a more in-depth overview and the code.
 
+Watch a quick demo video [here](https://youtu.be/Emzrkhw-rnU)
 
 You can download the training dataset <a href="/assets/images/mergedinfo.pdf" download><strong>here</strong></a>.
 
