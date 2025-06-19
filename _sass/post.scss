@@ -1,8 +1,22 @@
 .page__hero--overlay {
-    margin-bottom: 0;
+  margin-bottom: 0;
+  animation: fadeInOverlay 0.8s ease forwards;
 }
 
 .page__hero--overlay .wrapper {
-    background-color: #eaebea7e;
-    padding: 1em;
+  background-color: #eaebea7e;
+  padding: 1em;
+  transition: background-color 0.3s ease;
+  border-radius: 8px; /* optional, soft rounded corners for modern look */
+}
+
+@keyframes fadeInOverlay {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

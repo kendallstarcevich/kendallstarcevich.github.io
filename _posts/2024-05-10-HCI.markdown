@@ -14,7 +14,7 @@ header:
 
 # Drake Event Calendar App
 
-Completed Need Finding, Ideation, Personas, and Storyboard, Lo-Fi Prototyping and Evals, Hi-Fi Protoype and Expert Review, and a Usability Study.
+Completed Need Finding, Ideation, Personas, and Storyboard, Lo-Fi Prototyping and Evals, Hi-Fi Protoype and Expert Review, and a Usability Study for an Event Calendar App.
 ## <a href="https://drive.google.com/file/d/1IEvnbphjRzH-aJv3EDZ52IcxnzGrxUdj/view" target="_blank"><strong>Watch my Final Project Summary</strong></a>
 
 ## <a href="https://www.figma.com/design/kih2QPVWFnTcI4C6PNjv9i/GROUP-A-Project-Deliverable-3-Hi-fi-Prototype-REVISED?node-id=0-1&t=oOC768HEIGWF8uUZ-1" target="_blank"><strong>Interactive Prototype</strong></a>

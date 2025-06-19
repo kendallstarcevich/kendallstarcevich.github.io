@@ -9,4 +9,4 @@ author_profile: true
 
 ![kendall starcevich](/assets/images/headshot.jpg){: .avatar}
 # Hi - I'm Kendall!
-I am a Division I athlete and junior at Drake University majoring in **Computer Science**, **Artificial Intelligence**, and **Data Analytics**. Learn more about my skills at [About Me](/about) or view some of my experience and projects at [My Work](/mywork).
+I am a Division I athlete and expected Spring 2026 Graduate at Drake University majoring in **Computer Science**, **Artificial Intelligence**, and **Data Analytics**. Learn more about my skills at [About Me](/about) or view some of my experience and projects at [My Work](/mywork).

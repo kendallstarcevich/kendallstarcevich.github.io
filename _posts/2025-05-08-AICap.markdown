@@ -23,7 +23,4 @@ Watch a quick demo video [here](https://youtu.be/Emzrkhw-rnU)
 You can download the training dataset <a href="/assets/images/mergedinfo.pdf" download><strong>here</strong></a>.
 
 
-
-
-
 ### Additional work:

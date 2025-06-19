@@ -1,17 +1,46 @@
 .masthead {
-    background-color: #31473A
+  background-color: #31473a;
 }
 
 #site-nav {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 #site-nav a,
 #site-nav a:visited {
-    color: #edf4f2;
+  color: #edf4f2;
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease, background-color 0.3s ease;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-#site-nav a,
-#site-nav a:visited {
-    font-family: "Rubik";
+#site-nav a:hover,
+#site-nav a:focus {
+  color: #ffffff;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.15);
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.6);
+}
+
+#site-nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #ffffff;
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+
+#site-nav a:hover::after,
+#site-nav a:focus::after {
+  width: 100%;
 }

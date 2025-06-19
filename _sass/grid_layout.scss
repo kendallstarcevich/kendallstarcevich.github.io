@@ -1,44 +1,93 @@
 .archive__item {
-    /* position: relative; */
-    padding: 0.5em;
-    border: thin solid #ccc;
+  padding: 0.5em;
+  border: thin solid #ccc;
+  background-color: #fff; /* or #f9f9f9 for soft gray */
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+  will-change: box-shadow, transform, background-color;
+}
+
+.archive__item:hover,
+.archive__item:focus-within {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+  background-color: #fafafa;
+  outline: none;
 }
 
 @media only screen and (min-width: 900px) {
-.work .grid__item .archive__item {
+  .work .grid__item .archive__item {
     min-height: 13em;
-}
+  }
 
-article.archive__item {
+  article.archive__item {
     height: 17em;
-}
+  }
 }
 
 @media only screen and (max-width: 900px) {
-    .archive__item-teaser img {
-        height: auto !important;
-        width: 100% !important;
-        position: absolute;
-        top: -50%;
-    }
+  .archive__item-teaser img {
+    height: auto !important;
+    width: 100% !important;
+    position: absolute;
+    top: -50%;
+    transition: opacity 0.4s ease;
+    opacity: 0.9;
+  }
+
+  .archive__item-teaser img:hover,
+  .archive__item-teaser img:focus {
+    opacity: 1;
+  }
 }
+
 @media (min-width: 48em) {
-    .grid__item .archive__item .archive__item-excerpt {
-        font-size: 0.6em;
-    }
+  .grid__item .archive__item .archive__item-excerpt {
+    font-size: 0.6em;
+  }
 }
 
 .grid__item .archive__item-title {
-    font-size: 0.9em;
+  font-size: 0.9em;
+  transition: color 0.3s ease;
+}
+
+.archive__item-title:hover,
+.archive__item-title:focus {
+  color: #f09f00;
+  text-decoration: underline;
+  outline: none;
 }
 
 .archive__item-teaser {
-    border: thin solid #ccc;
-    height: 95px;
+  border: thin solid #ccc;
+  height: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
 
-    img {
-        width: 120%;
-        max-width: 120%;
-        height: 120%
-    }
+.archive__item-teaser:hover,
+.archive__item-teaser:focus {
+  border-color: #f09f00;
+  outline: none;
+}
+
+.archive__item-teaser img {
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+.archive__item-teaser img:hover,
+.archive__item-teaser img:focus {
+  transform: scale(1.05);
+  outline: none;
 }

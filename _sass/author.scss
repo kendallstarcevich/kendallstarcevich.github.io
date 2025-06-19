@@ -3,37 +3,76 @@
 .author__urls.social-icons a:visited,
 .page__footer a,
 .page__footer a:visited {
-    color: rgb(199, 199, 199); /* Default color for text and icons */
-    font-weight: 700; /* Font weight for text */
+  color: rgb(199, 199, 199); /* Default color for text and icons */
+  font-weight: 700; /* Font weight for text */
+  transition: color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-flex;
+  align-items: center;
 }
 
-/* Specific styles for icons */
-.author__urls.social-icons a i,
-.page__footer a i {
-    color: #31473a; /* Color for icons */
+.author__urls.social-icons a:hover,
+.page__footer a:hover {
+  color: #ffffff; /* Brighter color on hover */
+  text-decoration: underline;
 }
 
-/* Media query for screen widths 900px and above */
+/* Sidebar styling */
+.sidebar.sticky {
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 290px; /* Keep your original width */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Icon styles */
+.author__urls.social-icons a i {
+  font-size: 1.2em;
+  margin-right: 0.4em;
+  color: #31473a; /* Icon color */
+  transition: color 0.3s ease, transform 0.3s ease;
+  will-change: transform, color;
+}
+
+/* Hover effect on social icon links */
+.author__urls.social-icons a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+  transform: scale(1.05);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Icon glow and subtle scale on hover */
+.author__urls.social-icons a:hover i {
+  color: #4a6f4a; /* Slightly brighter green */
+  text-shadow: 0 0 6px rgba(74, 111, 74, 0.8);
+  transform: scale(1.1);
+}
+
+/* Media queries */
 @media only screen and (min-width: 900px) {
-    .sticky {
-        top: 4em;
-    }
-    .masthead.sticky {
-        top: 0;
-    }
+  .sticky {
+    top: 4em;
+  }
+  .masthead.sticky {
+    top: 0;
+  }
 
-    h3.author__name {
-        color: #31473a; /* Color for author name */
-    }
+  h3.author__name {
+    color: #31473a; /* Author name color */
+    transition: color 0.3s ease;
+  }
 
-    .sidebar.sticky {
-        background-color: #7c8363; /* Background color for sidebar */
-        padding: 1em;
-        max-height: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0em;
-        bottom: 0;
-    }
+  .sidebar.sticky {
+    background-color: #7c8363; /* Background color for sidebar */
+    padding: 1em;
+    max-height: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0em;
+    bottom: 0;
+  }
 }

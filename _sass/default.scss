@@ -39,3 +39,23 @@ body {
 #main {
     position: relative;
 }
+
+a {
+  color: #f09f00;
+  text-decoration: none;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+a:visited {
+  color: #da6900;
+}
+
+a:hover {
+  color: #ffb84d;
+  text-decoration: underline;
+}
+body {
+  background-color: #f5f3f6;
+  background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.02) 1px, transparent 0);
+  background-size: 20px 20px;
+}
