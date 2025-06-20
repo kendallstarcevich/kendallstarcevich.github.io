@@ -4,17 +4,18 @@ title:  "Effects on Employment Rates & Income"
 date:   2023-12-12 19:36:07 +0000
 categories: work
 tags: R SAS
-description: Using SAS and R programming languages to interpret data based on employment rates and income of different college majors after graduation, looking at the effect of gender and obtaining a graduate degree on income and employment rates.
+description: A statistics project analyzing data based on employment rates and income of different college majors after graduation.
 header:
   overlay_image: "/assets/images/background1.jpg"
   teaser: "/assets/images/graph.png"
   caption: "Photo credit: [Unsplash](https://unsplash.com)"
 ---
-> Using SAS and R programming languages to interpret data based on employment rates and income of different college majors after graduation, looking at the effect of gender and obtaining a graduate degree on income and employment rates.
+> A statistics project analyzing data based on employment rates and income of different college majors after graduation.
 
 # EFFECTS ON EMPLOYMENT RATES & INCOME: MAJOR CATEGORY, GENDER, GRADUATE DEGREE
 ## <a href="/assets/images/Stat040Project.pdf" download><strong>Download my Final Presentation!</strong></a>
 
-Above is the link to my Final Project for my intro to R and SAS Statistics course.
+Above is the link to my Final Project for my intro to R and SAS Statistics course. This project used SAS and R programming languages to interpret data based on employment rates and income of different college majors after graduation, and looked at the effect of gender and obtaining a graduate degree on income and employment rates.
+
 
 ### Additional work:

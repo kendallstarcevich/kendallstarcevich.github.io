@@ -5,13 +5,13 @@ date:   2024-11-04 19:36:07 +0000
 highlight_home: true
 categories: work
 tags: Python ML
-description: A Machine Learning project consisting of kNN, Decision Tree, and Random Forest models that predict the chance of graduate college admission based on admission profiles.
+description: A Machine Learning project consisting of kNN, Decision Tree, and Random Forest models that predict the chance of graduate college admission based on admission.
 header:
   overlay_image: "/assets/images/admission.jpg"
   teaser: "/assets/images/ML.jpg"
   caption: "Photo credit: [Unsplash](https://unsplash.com)"
 ---
-> A Machine Learning project consisting of kNN, Decision Tree, and Random Forest models that predict the chance of graduate college admission based on admission profiles.
+> A Machine Learning project consisting of kNN, Decision Tree, and Random Forest models that predict the chance of graduate college admission.
 
 # Graduate Admission Prediction Project
 

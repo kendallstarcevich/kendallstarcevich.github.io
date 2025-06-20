@@ -4,7 +4,7 @@ title:  "Drake Insurance Innovation Lab Internship"
 date:   2024-09-05 19:36:07 +0000
 highlight_home: true
 categories: work
-tags: Internships
+tags: Internships SQL Python
 description: This is a description of my internship with DIIL.
 header:
   overlay_image: "/assets/images/background4.jpg"

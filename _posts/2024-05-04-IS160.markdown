@@ -4,17 +4,17 @@ title:  "MVC Men’s & Women’s Basketball Database"
 date:   2024-05-04 19:36:07 +0000
 categories: work
 tags: SQL
-description: Using SQL to analyze to understand each MVC institution’s financial impacts on both the men’s and the women’s basketball teams pertaining to each individual team, gender disparities, and size and locational impacts.
+description: SQL powered data analysis regarding MVC institution’s financial impacts on both the men’s and the women’s basketball teams.
 header:
   overlay_image: "/assets/images/background2.jpg"
   teaser: "/assets/images/valley.jpg"
   caption: "Photo credit: [Unsplash](https://unsplash.com)"
 ---
-> Using SQL to analyze to understand each MVC institution’s financial impacts on both the men’s and the women’s basketball teams pertaining to each individual team, gender disparities, and size and locational impacts.
+> SQL powered data analysis regarding MVC institution’s financial impacts on both the men’s and the women’s basketball teams.
 
 # Database Project: MVC Men’s & Women’s Basketball
 ## <a href="/assets/images/IS160FinalProject.pdf" download><strong>Download my Final Presentation!</strong></a>
 
-Above is the link to my Final Project for my database management course. 
+Above is the link to my Final Project for my database management course. I used SQL to analyze to understand each MVC institution’s financial impacts on both the men’s and the women’s basketball teams pertaining to each individual team, gender disparities, and size and locational impacts.
 
 ### Additional work:
