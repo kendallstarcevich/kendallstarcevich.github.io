@@ -14,7 +14,11 @@ header:
 > My experience with Iowa Economic Authority's Insure Your Future Internship Program.
 
 # IYF Internship Program
-## <a href="https://www.youtube.com/watch?v=AClYYkHYdGs" target="_blank"><strong>Iowa Insurance Hall of Fame Scholarship Video</strong></a>
-In addition to my Internship at Wellmark, I participated in an Internship program for first and second year college interns in different financial and insurance companies across Iowa. I describe my experience in my video link above, which I **received a scholarship for**.
+
+![IYF Program](/assets/images/IYF.jpeg)
+
+In addition to my Internship at Wellmark, I participated in the [Iowa Economic Authority's Insure Your Future Internship Program](https://opportunityiowa.gov/business/iowa-advantage/key-industries/finance-insurance/insure-your-future-internship) for first and second year college interns in different financial and insurance companies across Iowa. I describe my experience in [this video](https://www.youtube.com/watch?v=AClYYkHYdGs), which I **received a scholarship for**.
+
+- [LinkedIn Post](https://www.linkedin.com/posts/wellmark_thank-you-so-much-to-the-iowa-insurance-hall-ugcPost-7250179239117766656-wLpl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZqK7IBPNuG1CNeNZN8xBFJQXNp8Zt-3Hs) from Wellmark about my scholarship.
 
 ### Additional work:

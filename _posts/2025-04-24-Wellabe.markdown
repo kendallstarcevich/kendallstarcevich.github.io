@@ -1,0 +1,25 @@
+---
+layout: posts
+title:  "KMEANS Consulting for Wellabe (DIIL)"
+date:   2025-04-24 19:36:07 +0000
+highlight_home: true
+categories: work
+tags: Internships SQL Python Snowflake
+description: A project using k-means clustering to segment Wellabe customers.
+header:
+  overlay_image: "/assets/images/Wellabe.png"
+  teaser: "/assets/images/Wellabethumb.png"
+  caption: "Photo credit: [Unsplash](https://www.unsplash.com/)"
+---
+> A project using k-means clustering to segment Wellabe customers.
+
+# Wellabe Consultation Project
+
+**Objective**: Optimize engagement personalization using data analysis. Considering how important personalization is to an upcoming Wellabe Rewards Program, identify how I would segment their population and why? Highlight the value to the program, how these segments impact engagement, and what my research shows.  
+
+This project used a combination of **SQL** and **Python** in a Snowflake enviornment to form k-means clusters to segment Wellabe customers based on behavioral, demographic, and interest data. 
+
+You can download the presentation given to Wellabe shareholders and the Iowa Insurance Community <a href="/assets/images/DIILPresentation.pdf" download><strong>here</strong></a>.
+
+
+### Additional work:

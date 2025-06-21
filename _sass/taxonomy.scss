@@ -12,13 +12,13 @@
 .taxonomy__section h3 {
   margin-top: 0;
   font-weight: 600;
-  color: #31473a;
+  color: #0a1f44; /* Sleek deep navy */
   transition: color 0.3s ease;
 }
 
 .taxonomy__section h3:hover,
 .taxonomy__section h3:focus {
-  color: #f09f00;
+  color: #38bdf8; /* Sky blue accent */
   cursor: default;
   outline: none;
 }
@@ -28,20 +28,24 @@
   border: none;
   padding: 0 8px;
   border-radius: 5px;
-  background-color: #e2f8ff;
-  color: #31473a;
+  background-color: #e1efff; /* Very light sky blue background */
+  color: #0a1f44; /* Deep navy text */
   text-decoration: none;
   font-weight: 600;
   transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
   display: inline-block;
   cursor: pointer;
 }
+.taxonomy__index a strong {
+  color: inherit;
+  font-weight: inherit;
+}
 
 .taxonomy__index a:hover,
 .taxonomy__index a:focus {
-  background-color: #c0e6ff;
-  color: #f09f00;
-  box-shadow: 0 0 8px rgba(240, 159, 0, 0.6);
+  background-color: #d0e8ff; /* Slightly brighter sky blue on hover */
+  color: #38bdf8; /* Sky blue text on hover */
+  box-shadow: 0 0 8px rgba(56, 189, 248, 0.5); /* Soft sky blue glow */
   transform: scale(1.05);
   outline: none;
 }

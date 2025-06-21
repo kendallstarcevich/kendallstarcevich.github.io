@@ -3,8 +3,8 @@
 .author__urls.social-icons a:visited,
 .page__footer a,
 .page__footer a:visited {
-  color: rgb(199, 199, 199); /* Default color for text and icons */
-  font-weight: 700; /* Font weight for text */
+  color: #94a3b8; /* Soft neutral slate-blue for text and icons */
+  font-weight: 700;
   transition: color 0.3s ease;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,30 +14,36 @@
 
 .author__urls.social-icons a:hover,
 .page__footer a:hover {
-  color: #ffffff; /* Brighter color on hover */
+  color: #38bdf8; /* Sky blue accent on hover */
   text-decoration: underline;
+}
+
+.author__urls.social-icons a {
+  font-size: 0.70rem;
+}
+
+/* Icon styles */
+.author__urls.social-icons a i {
+  font-size: 1.2em; /* bigger icons */
+  margin-right: 0.4em;
+  color: #64748b; /* Muted slate for icons */
+  transition: color 0.3s ease, transform 0.3s ease;
+  will-change: transform, color;
 }
 
 /* Sidebar styling */
 .sidebar.sticky {
   border-radius: 6px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  width: 290px; /* Keep your original width */
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.4); /* subtle navy shadow */
+  width: 300px;
+  background-color: #1e293b; /* Dark navy background */
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Icon styles */
-.author__urls.social-icons a i {
-  font-size: 1.2em;
-  margin-right: 0.4em;
-  color: #31473a; /* Icon color */
-  transition: color 0.3s ease, transform 0.3s ease;
-  will-change: transform, color;
+  color: #f1f5f9; /* Light gray-blue text */
 }
 
 /* Hover effect on social icon links */
 .author__urls.social-icons a:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(56, 189, 248, 0.15); /* Sky blue glow on hover */
   border-radius: 4px;
   padding: 0.2em 0.4em;
   transform: scale(1.05);
@@ -46,8 +52,8 @@
 
 /* Icon glow and subtle scale on hover */
 .author__urls.social-icons a:hover i {
-  color: #4a6f4a; /* Slightly brighter green */
-  text-shadow: 0 0 6px rgba(74, 111, 74, 0.8);
+  color: #38bdf8; /* Sky blue accent on icon hover */
+  text-shadow: 0 0 6px rgba(56, 189, 248, 0.7);
   transform: scale(1.1);
 }
 
@@ -61,12 +67,11 @@
   }
 
   h3.author__name {
-    color: #31473a; /* Author name color */
+    color: #f1f5f9; /* Light gray-blue heading */
     transition: color 0.3s ease;
   }
 
   .sidebar.sticky {
-    background-color: #7c8363; /* Background color for sidebar */
     padding: 1em;
     max-height: 100%;
     height: 100%;

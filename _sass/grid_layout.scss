@@ -1,20 +1,22 @@
 .archive__item {
   padding: 0.5em;
-  border: thin solid #ccc;
-  background-color: #fff; /* or #f9f9f9 for soft gray */
+  border: thin solid #334155; /* Dark slate navy border */
+  background-color: #1e293b; /* Dark navy card background */
   border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.6); /* subtle navy shadow */
   transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
   cursor: pointer;
   will-change: box-shadow, transform, background-color;
+  color: #cbd5e1; /* Light slate text */
 }
 
 .archive__item:hover,
 .archive__item:focus-within {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 20px rgba(56, 189, 248, 0.8); /* bright sky blue glow */
   transform: translateY(-4px);
-  background-color: #fafafa;
+  background-color: #0f172a; /* even darker navy on hover */
   outline: none;
+  color: #e0f2fe; /* lighter sky blue text on hover */
 }
 
 @media only screen and (min-width: 900px) {
@@ -46,23 +48,25 @@
 @media (min-width: 48em) {
   .grid__item .archive__item .archive__item-excerpt {
     font-size: 0.6em;
+    color: #94a3b8; /* muted slate for excerpt text */
   }
 }
 
 .grid__item .archive__item-title {
   font-size: 0.9em;
   transition: color 0.3s ease;
+  color: #cbd5e1; /* light slate */
 }
 
 .archive__item-title:hover,
 .archive__item-title:focus {
-  color: #f09f00;
+  color: #38bdf8; /* bright sky blue accent */
   text-decoration: underline;
   outline: none;
 }
 
 .archive__item-teaser {
-  border: thin solid #ccc;
+  border: thin solid #334155; /* slate navy border */
   height: 95px;
   display: flex;
   justify-content: center;
@@ -74,7 +78,7 @@
 
 .archive__item-teaser:hover,
 .archive__item-teaser:focus {
-  border-color: #f09f00;
+  border-color: #38bdf8; /* sky blue border on hover */
   outline: none;
 }
 

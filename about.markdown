@@ -4,7 +4,7 @@ layout: archive
 author: Kendall Starcevich
 author_profile: true
 ---
-<a href="/assets/images/KendallStarcevichResume2024.pdf" download><strong>Download my Resume!</strong></a>
+<a href="/assets/images/KendallStarcevichResume2024.pdf" download>Download my Resume!</a>
 
 
 I came to Drake University from Olathe, KS, two years ago as an undecided major. I immediately became fascinated with programming after taking an introductory computer science course and committed to the major in my first semester. Developing creative solutions to real-world problems and studying the "how" behind life-changing technologies like Artificial Intelligence has been extremely fulfilling. **I am currently a Data Analyst Intern at Corteva Agriscience for Summer 2025**!
@@ -17,7 +17,7 @@ Balancing the demands of being a Division I athlete while managing three majors,
 {% include technicalskills.md %}
 ## Relevant Courses
 
-<a href="/assets/images/KendallStarcevichTranscript2025.pdf" download><strong>Download my Unofficial Transcript!</strong></a>
+<a href="/assets/images/KendallStarcevichTranscript2025.pdf" download>Download my Unofficial Transcript!</a>
 ### Computer Science: 
 - Object Oriented Programming
 - Artificial Intelligence

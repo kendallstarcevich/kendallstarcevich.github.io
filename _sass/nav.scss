@@ -1,31 +1,33 @@
 .masthead {
-  background-color: #31473a;
+  background-color: #1e293b; /* Sleek deep navy */
 }
 
 #site-nav {
   background-color: transparent;
+  position: relative;
 }
 
 #site-nav a,
 #site-nav a:visited {
-  color: #edf4f2;
-  font-family: "Rubik", sans-serif;
+  color: #cbd5e1; /* Soft sky blue/light gray */
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
   transition: color 0.3s ease, text-shadow 0.3s ease, background-color 0.3s ease;
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
 
 #site-nav a:hover,
 #site-nav a:focus {
-  color: #ffffff;
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
-  background-color: rgba(255, 255, 255, 0.15);
+  color: #38bdf8; /* Sky blue accent */
+  text-shadow: 0 0 8px rgba(56, 189, 248, 0.6);
+  background-color: rgba(56, 189, 248, 0.15);
   outline: none;
   cursor: pointer;
-  box-shadow: 0 0 6px rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 6px rgba(56, 189, 248, 0.4);
 }
 
 #site-nav a::after {
@@ -35,7 +37,7 @@
   left: 0;
   width: 0%;
   height: 2px;
-  background: #ffffff;
+  background: #38bdf8; /* Sky blue underline */
   transition: width 0.3s ease;
   border-radius: 2px;
 }

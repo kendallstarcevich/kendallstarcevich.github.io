@@ -4,10 +4,12 @@
 }
 
 .page__hero--overlay .wrapper {
-  background-color: #eaebea7e;
+  background-color: rgba(10, 31, 68, 0.75); /* Deep navy with subtle transparency */
   padding: 1em;
-  transition: background-color 0.3s ease;
-  border-radius: 8px; /* optional, soft rounded corners for modern look */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(56, 189, 248, 0.2); /* Soft sky blue glow */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  border-left: 4px solid #38bdf8; /* Sky blue accent bar */
 }
 
 @keyframes fadeInOverlay {

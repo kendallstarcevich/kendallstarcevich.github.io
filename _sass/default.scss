@@ -1,61 +1,61 @@
 body {
-    color: black;
-    background-color: rgb(210, 207, 210);
+  color: #cbd5e1; /* Light slate gray text */
+  background-color: #0f172a; /* Very dark navy background */
+  background-image: radial-gradient(circle at 1px 1px, rgba(203, 213, 225, 0.04) 1px, transparent 0);
+  background-size: 20px 20px;
+  font-family: "Work Sans", sans-serif;
 }
 
 a {
-    color: #f09f00
+  color: #38bdf8;
+  text-decoration: underline;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
 }
 
 a:visited {
-    color: #da6900
-}
-
-h3,
-h3.archive__subtitle {
-    clear: both;
-    color: #7c8363;
-    font-family: "Waiting for the Sunrise";
-    font-size: 1.35em;
-}
-
-
-
-h1,
-h2 {
-    color: #31473a;
-    font-family: "Rubik";
-    font-weight: 700;
-}
-
-p,
-.sidebar p,
-.archive__item-title,
-a,
-body {
-    font-family: "Work Sans";
-}
-
-#main {
-    position: relative;
-}
-
-a {
-  color: #f09f00;
-  text-decoration: none;
-  transition: color 0.2s ease, text-decoration 0.2s ease;
-}
-
-a:visited {
-  color: #da6900;
+  color: #38bdf8;
 }
 
 a:hover {
-  color: #ffb84d;
-  text-decoration: underline;
+  color: #ffffff;
+  text-shadow: 0 0 6px #7ef9c4;
 }
+
+
+/* Headers */
+h1,
+h2 {
+  color: #e2e8f0; /* Soft light gray-blue */
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+strong {
+  color: #ff6668; /* or any contrasting color */
+  font-weight: 700;
+}
+
+/* Make regular h3 a brighter sky blue to stand out more */
+h3 {
+  clear: both;
+  color: #38bdf8; /* Bright sky blue */
+  font-family: "Rubik", sans-serif;
+  font-size: 1.35em;
+  font-weight: 600;
+}
+
+/* Optionally, make archive subtitles a softer lighter blue for subtle difference */
+h3.archive__subtitle {
+  color: #60a5fa; /* Softer sky blue */
+}
+
+/* Body text and smaller headings */
+p,
+.sidebar p,
+.archive__item-title,
 body {
-  background-color: #f5f3f6;
-  background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.02) 1px, transparent 0);
-  background-size: 20px 20px;
+  font-family: "Work Sans", sans-serif;
+}
+
+#main {
+  position: relative;
 }
