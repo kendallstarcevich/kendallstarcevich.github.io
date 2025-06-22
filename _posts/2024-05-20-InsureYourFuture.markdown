@@ -19,6 +19,11 @@ header:
 
 In addition to my Internship at Wellmark, I participated in the [Iowa Economic Authority's Insure Your Future Internship Program](https://opportunityiowa.gov/business/iowa-advantage/key-industries/finance-insurance/insure-your-future-internship) for first and second year college interns in different financial and insurance companies across Iowa. I describe my experience in [this video](https://www.youtube.com/watch?v=AClYYkHYdGs), which I **received a scholarship for**.
 
-- [LinkedIn Post](https://www.linkedin.com/posts/wellmark_thank-you-so-much-to-the-iowa-insurance-hall-ugcPost-7250179239117766656-wLpl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZqK7IBPNuG1CNeNZN8xBFJQXNp8Zt-3Hs) from Wellmark about my scholarship.
+**LinkedIn Posts about my scholarship from:**
+
+- [Wellmark](https://www.linkedin.com/posts/wellmark_thank-you-so-much-to-the-iowa-insurance-hall-ugcPost-7250179239117766656-wLpl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZqK7IBPNuG1CNeNZN8xBFJQXNp8Zt-3Hs)
+
+
+- [Iowa Insurance Hall of Fame](https://www.linkedin.com/posts/iowa-insurance-hall-of-fame_in-addition-to-recognizing-our-four-inductees-activity-7246230737945829377-okfG?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEZqK7IBPNuG1CNeNZN8xBFJQXNp8Zt-3Hs)
 
 ### Additional work:
