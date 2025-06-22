@@ -15,9 +15,12 @@ header:
 
 # Wellabe Consultation Project
 
+This project was a part of my experience in the [Drake Insurance Innovation Lab](/work/2024/09/05/DIIL.html)
+
+
 **Objective**: Optimize engagement personalization using data analysis. Considering how important personalization is to an upcoming Wellabe Rewards Program, identify how I would segment their population and why? Highlight the value to the program, how these segments impact engagement, and what my research shows.  
 
-This project used a combination of **SQL** and **Python** in a Snowflake enviornment to form k-means clusters to segment Wellabe customers based on behavioral, demographic, and interest data. 
+This project used a combination of SQL and Python in a **Snowflake** enviornment to form **k-means clusters** to segment Wellabe customers based on behavioral, demographic, and interest data. 
 
 You can download the presentation given to Wellabe shareholders and the Iowa Insurance Community <a href="/assets/images/DIILPresentation.pdf" download><strong>here</strong></a>.
 

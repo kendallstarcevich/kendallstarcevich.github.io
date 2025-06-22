@@ -7,15 +7,16 @@ categories: work
 tags: Internships
 description: This is a description of my internship with DIIL.
 header:
-  overlay_image: "/assets/images/background4.jpg"
+  overlay_image: "/assets/images/drake.jpg"
   teaser: "/assets/images/drake.png"
-  caption: "Photo credit: [Unsplash](https://www.unsplash.com/)"
+  caption: "Photo credit: [Appily](https://www.appily.com/colleges/drake-university)"
 ---
 > My experience with Drake Insurance Innovation Lab Internship.
 
 # Drake Insurance Innovation Lab Internship
 
-I am an intern at the [Kelley Center for Insurance Innovation]https://www.drake.edu/actsci/emc/ in the Innovation Lab.
+#### I am an intern at the [Kelley Center for Insurance Innovation](https://www.drake.edu/actsci/emc/) in the Innovation Lab.
+
 • As the group’s **Data Scientist**, set to develop strategic solutions for [Wellabe's new
 rewards program launch](/work/2025/04/24/Wellabe.html), delivering recommendations to senior executives.
 
@@ -27,7 +28,6 @@ Commissioner and venture capitalists.
 
 • Preparing to analyze innovation practices with ten carriers and brokers in the next coming year.
 
-**Here are some LinkedIn posts about the experience:**
-- [Presenting at Wellabe](https://www.linkedin.com/posts/kevin-croft-109a793_insuranceindustry-riskmanagement-talentpipeline-activity-7311144019542097922-S7ly?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEZqK7IBPNuG1CNeNZN8xBFJQXNp8Zt-3Hs)
+**[Here](https://www.linkedin.com/posts/kevin-croft-109a793_insuranceindustry-riskmanagement-talentpipeline-activity-7311144019542097922-S7ly?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEZqK7IBPNuG1CNeNZN8xBFJQXNp8Zt-3Hs) is a LinkedIn post about the experience!**
 
 ### Additional work:
