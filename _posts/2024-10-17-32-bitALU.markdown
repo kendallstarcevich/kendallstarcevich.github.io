@@ -16,10 +16,10 @@ header:
 
 This project was part of a course focused on computer organization and architecture, covering internal data representation, assembly language, memory addressing, and digital circuit design.
 
-I designed a 32-bit Arithmetic Logic Unit (ALU) in Logisim capable of performing several core operations:
+**I designed a 32-bit Arithmetic Logic Unit (ALU)** in Logisim capable of performing several core operations:
 add, sub, and, or, not, xor, and slt.
 
-Key features include:
+**Key features include:**
 
 - Efficient reuse of a single adder for both addition and subtraction
 
@@ -32,17 +32,22 @@ Deliverables include circuit diagrams of the ALU and components, a well-document
 ## Core Components:
 
 **Complete 32-bit Adder/Subtractor**:
+
 ![Complete 32-bit Adder/Subtractor](/assets/images/addsub.png)
 **Full Adder**:
+
 ![Full Adder](/assets/images/fulladder.png)
 **Full ALU Design**:
+
 ![ALU](/assets/images/ALU.png)
 
 ## Testing and Verification:
 
 **Custom Test Vector:**
+
 ![Test Vector](/assets/images/testvector.png)
 **Result of Test Vector:**
+
 ![Result of Test Vector](/assets/images/testresult.png)
 
 ### Additional work:

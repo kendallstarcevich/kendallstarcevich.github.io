@@ -13,10 +13,10 @@ header:
 > My final Object Oriented Programming Java project where I created a Quiz GUI. 
 
 # OOP Quiz GUI
-## <a href="https://github.com/kendallstarcevich/OOPFinalProject" target="_blank"><strong>GitHub Repo for this project</strong></a>
+## <a href="https://github.com/kendallstarcevich/OOPFinalProject" target="_blank">GitHub Repo for this project</a>
 The README in my GitHub repo above shows how to execute this program. The program allows you to create a custom "quiz" game, where you personalize your questions and get feedback on your results.
 
-The project contains each of the following programming elements:
+**The project contains each of the following programming elements:**
 
 - Javadoc
 
@@ -24,9 +24,10 @@ The project contains each of the following programming elements:
 
 - Implementation of an Interface
 
-- An example of Inheritance
+- Inheritance
 
 When it is executed, it looks like this: 
+
 ![Step 1](/assets/images/OOP1.png)
 ![Step 2](/assets/images/OOP3.png)
 ![Step 3](/assets/images/OOP4.png)

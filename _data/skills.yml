@@ -1,27 +1,35 @@
 technical:
   - title: Python
     level: Intermediate
-  - title: Java
-    level: Intermediate
   - title: SQL
     level: Intermediate
+  - title: Databricks / Snowflake
+    level: Intermediate
+  - title: HTML / CSS / SCSS
+    level: Intermediate
+  - title: Git / GitHub
+    level: Intermediate
+  - title: AWS
+    level: Intermediate
   - title: R
-    level: Beginner
+    level: Intermediate
+  - title: Power Automate
+    level: Intermediate
+
   - title: SAS
     level: Beginner
-  - title: BusinessObjects
-    level: Beginner
-  - title: Power BI/Tableau
-    level: Beginner
-  - title: CSS/SCSS
-    level: Beginner
-  - title: HTML
-    level: Beginner
   - title: JavaScript
-    level: Beginner
-  - title: Git
     level: Beginner
   - title: MIPS
     level: Beginner
   - title: C
     level: Beginner
+  - title: Power BI
+    level: Beginner
+  - title: Flask (Web Dev)
+    level: Beginner
+  - title: Java
+    level: Beginner
+  - title: Bash
+    level: Beginner
+

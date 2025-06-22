@@ -51,12 +51,15 @@ The value '3' is correct in Register $13 because it is the final result of every
 
 ## Components and Control Logic:
 **Control Circut**:
+
 ![Control Circuit](/assets/images/controlcircuit.png)
 **Control Unit Truth Table**:
+
 ![Control Unit Truth Table](/assets/images/truthtable.png)
 
 ## Program Execution:
 **MIPS Test Segment (MARS)**:
+
 ![MIPS Test Segment](/assets/images/testsegment.png)
 
 ### Additional work:

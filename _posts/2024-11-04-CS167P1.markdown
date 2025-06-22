@@ -17,9 +17,9 @@ header:
 
 This project analyzes a Kaggle dataset containing 400 university admission profiles, featuring GRE scores, TOEFL scores, university ratings, statement of purpose (SOP) and recommendation letter (LOR) strengths, undergraduate GPA, research experience, and the chance of admission.
 
-The goal was to build regression models that predict the chance of admission based on the other features. This type of predictive tool could be valuable for prospective graduate students to estimate their admission likelihood before investing time and money into applications.
+The goal was to **build regression models that predict the chance of admission based on the other features**. This type of predictive tool could be valuable for prospective graduate students to estimate their admission likelihood before investing time and money into applications.
 
-I implemented and compared several regression algorithms including:
+**I implemented and compared several regression algorithms including:**
 
 - k-Nearest Neighbors (kNN), both weighted and unweighted,
 
@@ -27,7 +27,7 @@ I implemented and compared several regression algorithms including:
 
 - Random Forest.
 
-The [Complete Project Colab Link](https://colab.research.google.com/drive/1y85FcBFOrVI8ds3xRVl4tKKSombP5dHx?usp=sharing) includes:
+**The [Complete Project Colab Link](https://colab.research.google.com/drive/1y85FcBFOrVI8ds3xRVl4tKKSombP5dHx?usp=sharing) includes:**
 
 - Data preprocessing and normalization code,
 
