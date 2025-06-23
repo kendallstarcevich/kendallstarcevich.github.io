@@ -26,6 +26,37 @@ a:hover {
   cursor: help;
   display: inline-block;
 }
+.toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 1.5em 0;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+
+.toc a {
+  background-color: #e1efff;  /* Light sky blue */
+  color: #0a1f44;             /* Deep navy */
+  text-decoration: none;
+  padding: 0.4em 0.75em;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.95em;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.toc a:hover,
+.toc a:focus {
+  background-color: #cde7ff;  /* Brighter hover blue */
+  color: #0a1f44;
+  transform: scale(1.05);
+  outline: none;
+}
 
 .tooltip::after {
   content: attr(data-tooltip);

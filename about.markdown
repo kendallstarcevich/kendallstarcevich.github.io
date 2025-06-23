@@ -4,7 +4,14 @@ layout: archive
 author: Kendall Starcevich
 author_profile: true
 ---
-<a href="/assets/images/KendallStarcevichResume2024.pdf" download>Download my Resume!</a>
+<a id="page-title"></a>
+
+<div class="toc">
+  <a href="#skills">My Skills</a>
+  <a href="#courses">Relevant Courses</a>
+  <a href="#resume">Resume</a>
+  <a href="#transcript">Transcript</a>
+</div>
 
 
 I came to Drake University from Olathe, KS, three years ago as an undecided major. After enrolling in an introductory computer science course, I quickly became fascinated with programming and declared the major during my first semester. 
@@ -15,20 +22,29 @@ I enjoy the challenge of figuring things out when there isn’t a clear solution
 
 **I am currently a Data Analyst Intern at Corteva Agriscience for Summer 2025**!
 
-## My Skills
+## <a id="skills">My Skills</a>
 
 Balancing the demands of being a Division I athlete while pursuing **three majors, a minor**, and work has prepared me to take on any role. As a student-athlete, I’ve learned to allocate my time efficiently between training, travel, competitions, and academics, always striving to bring my best to every area. 
 
 This experience has sharpened my abilities in **multitasking**, **time management**, **prioritization**, and **communication** — skills that allow me to **thrive under pressure** and tackle complex challenges. I also consider myself a **quick learner**, especially in unfamiliar situations. I’m confident diving into new tools, concepts, or projects independently and enjoy the process of learning by doing.
 
+<a href="#page-title" class="back-to-top">Back to Top ↑</a>
 
 ### Technical Skills
 
 {% include technicalskills.md %}
-## Relevant Courses
+
+## <a id="courses">Relevant Courses</a>
 ***Hover over the course name to view its description***
 
-### Computer Science: 
+<div class="toc">
+  <a href="#cs">Computer Science</a>
+  <a href="#da">Data Analytics</a>
+  <a href="#math">Math</a>
+  <a href="#hum">Computer Humanities</a>
+</div>
+
+#### <a id="cs">Computer Science</a>
 
 - <span class="tooltip" data-tooltip="This course introduces students to object-oriented programming (OOP) in Java. Students will learn OOP concepts such as classes, objects, encapsulation, messaging, data hiding, inheritance, and polymorphism. Generic programming and OOP design patterns will also be taught. Students will encounter advanced programming projects where unit testing and exception handling will be stressed. Other topics include serialization and GUI construction.">Object Oriented Programming</span>
 
@@ -51,8 +67,10 @@ This experience has sharpened my abilities in **multitasking**, **time managemen
 
 - <span class="tooltip" data-tooltip="This course provides an in-depth study of the design and development of software. The life cycle of software, various development strategies, requirements analysis, design tools, and testing methodologies will be covered. These concepts will be explored in theory as well as in practice; students will gain experience in conceiving, specifying, designing, developing and implementing a reasonably sized software solution alongside a team of students from computer science.">Software Engineering\*</span>
 
+<a href="#page-title" class="back-to-top">Back to Top ↑</a>
 
-### Data Analytics:
+
+#### <a id="da">Data Analytics</a>
 
 
 - <span class="tooltip" data-tooltip="A study of database concepts and technologies used in managing and using data within modern organizations: defining data needs; using modern database tools; understanding database design; and creating applications.">Database Management</span>
@@ -79,20 +97,44 @@ This experience has sharpened my abilities in **multitasking**, **time managemen
 
 - <span class="tooltip" data-tooltip="Continuance of STAT I with further tests of significance; analysis of variance; correlation and regression; and contingency table analysis.">Statistics II\*</span>
 
-### Math: 
+<a href="#page-title" class="back-to-top">Back to Top ↑</a>
+
+#### <a id="math">Math</a>
 - Calculus I/II/III
 - Linear Algebra
 - <span class="tooltip" data-tooltip="Number systems, algorithms, sets, logic, Boolean algebra, functions, combinatorics, probability, graph theory.">Discrete Mathematics</span>
 
-### Computer Humanities: 
-- Computer/Digital Ethics
-- The Philosophy of Minds, Brains, and Computers
-- Interdisciplinary Perspectives on Artificial Intelligence
-- Nature of Intelligence and Relationship to Artificial Intelligence
-- AI in Fiction
-- Language and Reality \*
+#### <a id="hum">Computer Humanities</a>
+
+- <span class="tooltip" data-tooltip="This course examines the ethical and social issues arising from advances in computer technology, and the responsibility that computer professionals and users have with regards to computer use. The course will serve to increase understanding of issues related to ethics, professional conduct and social responsibility as they arise in the field of computer science. Students will be exposed to the history of the discipline from a social point of view, and to various frameworks from which ethical and professional decisions must be made within the discipline. Additionally, the course serves to develop 1) the ability to think clearly; 2) habits of professional responsibility and behavior; and 3) effective writing and presentation skills.">Computer/Digital Ethics</span>
+
+
+- <span class="tooltip" data-tooltip="An introduction to philosophy of mind, focused on the nature of intentionality and consciousness, the relationship between mental and physical states, and the possibility of artificial intelligence.">The Philosophy of Minds, Brains, and Computers</span>
+
+- <span class="tooltip" data-tooltip="This course will introduce students to artificial intelligence possibilities. Specifically, this course will present reflections and observations from interdisciplinary guest speakers each week in a seminar format. Students will be exposed to a number of different areas and reflect on what they learn.">Interdisciplinary Perspectives on Artificial Intelligence</span>
+
+
+- <span class="tooltip" data-tooltip="This course will explore contemporary and historical perspectives on learning and intelligence. Drawing from philosophy, psychology, and neuroscience, we will explore common themes and open-questions regarding the natures of learning and intelligence. Interactions between technological development (e.g., artificial intelligence) and views about learning and intelligence will be explored.">Nature of Intelligence and Relationship to Artificial Intelligence</span>
+
+- <span class="tooltip" data-tooltip="This course examines our past and present cultural beliefs and anxieties about artificial intelligences, looking at popular works that have spoken to audiences’ fears of, and hopes for, intelligent machines that interact with humans and participate in human life. From calculating murderers (eg: HAL 9000) to protective companions (eg: Baymax), how have we viewed these artificial persons, and what have imagined becomes of natural, biological humans who live lives integrated with AI?">AI in Fiction</span>
+
+- <span class="tooltip" data-tooltip="This course provides an overview of ethical and legal issues associated with business information technology usage, data collection, data sharing, and data-driven decision making. Topics include ethical and legal perspectives on privacy and information rights, organizational computer usage policies, cybercrime, and intellectual property.">IT Legal and Ethical Issues\*</span>
+
+
+- <span class="tooltip" data-tooltip="An introduction to philosophy of language, linguistics, and semiotics focused on the issue of linguistic relativism, i.e., whether languages are significantly different, and if so, whether they shape significantly different views of reality. Examines evidence both in support of and against linguistic relativism, and then uses this evidence as a means of addressing the relationship between language and reality.">Language and Reality\*</span>
 
 \* *Courses will be taken prior to Graduation*
 
+<a href="#page-title" class="back-to-top">Back to Top ↑</a>
 
-<a href="/assets/images/KendallStarcevichTranscript2025.pdf" download>Download my Unofficial Transcript!</a>
+
+### Download:
+
+<a id="resume"></a>
+<a id="transcript"></a>
+
+- <a href="/assets/images/KendallStarcevichResume2024.pdf" download>Resume</a>
+
+- <a href="/assets/images/KendallStarcevichTranscript2025.pdf" download>Unofficial Transcript</a>
+
+<a href="#page-title" class="back-to-top">Back to Top ↑</a>
