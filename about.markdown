@@ -133,7 +133,7 @@ This experience has sharpened my abilities in **multitasking**, **time managemen
 <a id="resume"></a>
 <a id="transcript"></a>
 
-- <a href="/assets/images/KendallStarcevichResume2024.pdf" download>Resume</a>
+- <a href="/assets/images/KendallStarcevichResume2025.pdf" download>Resume</a>
 
 - <a href="/assets/images/KendallStarcevichTranscript2025.pdf" download>Unofficial Transcript</a>
 
