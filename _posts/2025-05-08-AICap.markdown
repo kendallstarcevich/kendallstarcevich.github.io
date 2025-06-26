@@ -16,11 +16,28 @@ header:
 # AI Capstone Secure HIPAA Compliant AI Chatbot (HIPAAi)
 My Capstone Group developed a secure, role-based AI chatbot tailored for the health insurance industry to theoretically ensure compliance with HIPAA regulations. The chatbot uses a custom dataset and restricts information access based on user roles through a secure login system. We implemented early fine-tuning, role-specific permissions, and began integrating data privacy features. Built with **LangChain** and **GPT-4**, the project aims to offer a trusted conversational interface for sensitive insurance queries.
 
-Download the full presentation <a href="/assets/images/HIPPAIcapstone.pdf" download><strong>here</strong></a>, including a more in-depth overview and the code.
+Watch a quick video demo below
 
-Watch a quick demo video [here](https://youtu.be/Emzrkhw-rnU)
 
-You can download the training dataset <a href="/assets/images/mergedinfo.pdf" download><strong>here</strong></a>.
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe 
+    src="https://www.youtube.com/embed/Emzrkhw-rnU" 
+    frameborder="0" 
+    allowfullscreen 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
+
+or view the presentation, including a more in-depth overview and the code below
+
+<iframe 
+  src="/assets/images/HIPPAIcapstone.pdf" 
+  width="100%" 
+  height="600px" 
+  style="border: none;">
+</iframe>
+
+You can also download the training dataset <a href="/assets/images/mergedinfo.pdf" download><strong>here</strong></a>.
 
 
 ### Additional work:

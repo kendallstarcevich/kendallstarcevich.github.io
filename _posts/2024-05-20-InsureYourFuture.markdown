@@ -2,7 +2,6 @@
 layout: posts
 title:  "Insure Your Future Internship Program"
 date:   2024-05-20 19:36:07 +0000
-highlight_home: true
 categories: work
 tags: Internships
 description: This is a description of my internship with Insure Your Future summer 2024.
@@ -17,7 +16,17 @@ header:
 
 ![IYF Program](/assets/images/IYF.jpeg)
 
-In addition to my Internship at Wellmark, I participated in the [Iowa Economic Authority's Insure Your Future Internship Program](https://opportunityiowa.gov/business/iowa-advantage/key-industries/finance-insurance/insure-your-future-internship) for first and second year college interns in different financial and insurance companies across Iowa. I describe my experience in [this video](https://www.youtube.com/watch?v=AClYYkHYdGs), which I **received a scholarship for**.
+In addition to my Internship at Wellmark, I participated in the [Iowa Economic Authority's Insure Your Future Internship Program](https://opportunityiowa.gov/business/iowa-advantage/key-industries/finance-insurance/insure-your-future-internship) for first and second year college interns in different financial and insurance companies across Iowa. I describe my experience in the view below, which I **received a scholarship for**.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe 
+    src="https://www.youtube.com/embed/AClYYkHYdGs" 
+    frameborder="0" 
+    allowfullscreen 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
+
 
 **LinkedIn Posts about my scholarship from:**
 

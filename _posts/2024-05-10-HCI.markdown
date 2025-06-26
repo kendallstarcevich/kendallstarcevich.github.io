@@ -14,11 +14,19 @@ header:
 
 # Drake Event Calendar App
 
-Completed Need Finding, Ideation, Personas and Storyboard, Lo-Fi Prototyping and Evals, Hi-Fi Protoype and Expert Review, and a Usability Study for an Event Calendar App.
+Completed **Need Finding, Ideation, Personas and Storyboard, Lo-Fi Prototyping and Evals, Hi-Fi Protoype and Expert Review, and a Usability Study** for an Event Calendar App. Watch a 5-minute video summary of the entire process and the prototype below.
 
-Click [this link](https://drive.google.com/file/d/1IEvnbphjRzH-aJv3EDZ52IcxnzGrxUdj/view) for a 5-minute video summary of the entire process and the prototype. 
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe 
+    src="https://www.youtube.com/embed/Bv-ygAuwQ1U" 
+    frameborder="0" 
+    allowfullscreen 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
-Use [this link](https://www.figma.com/design/kih2QPVWFnTcI4C6PNjv9i/GROUP-A-Project-Deliverable-3-Hi-fi-Prototype-REVISED?node-id=0-1&t=oOC768HEIGWF8uUZ-1) to view the interactive prototype. Once there, locate the "present" button in the upper-right corner of the website. You can then interact with the app as you would normally on your device.
+
+Use [this link](https://www.figma.com/design/kih2QPVWFnTcI4C6PNjv9i/GROUP-A-Project-Deliverable-3-Hi-fi-Prototype-REVISED?node-id=0-1&t=oOC768HEIGWF8uUZ-1) to view the **interactive prototype on Figma.** Once there, locate the "present" button in the upper-right corner of the website. You can then interact with the app as you would normally on your device.
 
 
 ### Additional work:

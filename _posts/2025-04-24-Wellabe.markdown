@@ -22,7 +22,15 @@ This project was a part of my experience in the [Drake Insurance Innovation Lab]
 
 This project used a combination of SQL and Python in a **Snowflake** enviornment to form **k-means clusters** to segment Wellabe customers based on behavioral, demographic, and interest data. 
 
-You can download the presentation given to Wellabe shareholders and the Iowa Insurance Community <a href="/assets/images/DIILPresentation.pdf" download><strong>here</strong></a>.
+Below is the presentation given to Wellabe shareholders and the Iowa Insurance Community
+
+<iframe 
+  src="/assets/images/DIILPresentation.pdf" 
+  width="100%" 
+  height="600px" 
+  style="border: none;">
+</iframe>
+
 
 
 ### Additional work:

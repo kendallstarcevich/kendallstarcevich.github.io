@@ -16,7 +16,17 @@ header:
 # Amazon Cognito Demo
 I taught myself Amazon Cognito, an AWS User Authentication and Access Control service. I created a tutorial that will walk through a step-by-step demo that creates a simple locally hosted web app with an Amazon Cognito powered login/signup.
 
-The [demo link](https://hackmd.io/@IZ4dLAWgT-OlUrBGFei8ug/rkTSuXYlex#CS178-Project-2-Amazon-Cognito) includes an in depth explanation of Amazon Cognito's uses, pricing, and pros and cons along with the code, project summary, setup and run instructions, and a [demo video](https://www.youtube.com/watch?v=jWrWSsUD_tE).
+The [demo link](https://hackmd.io/@IZ4dLAWgT-OlUrBGFei8ug/rkTSuXYlex#CS178-Project-2-Amazon-Cognito) includes an in depth explanation of Amazon Cognito's uses, pricing, and pros and cons along with the code, project summary, and setup and run instructions. 
+
+**Demo Video**
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe 
+    src="https://www.youtube.com/embed/jWrWSsUD_tE" 
+    frameborder="0" 
+    allowfullscreen 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 
 

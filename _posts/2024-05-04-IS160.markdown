@@ -3,7 +3,7 @@ layout: posts
 title:  "MVC Men’s & Women’s Basketball Database"
 date:   2024-05-04 19:36:07 +0000
 categories: work
-tags: SQL
+tags: SQL PowerBI
 description: SQL powered data analysis regarding MVC institution’s financial impacts on both the men’s and the women’s basketball teams.
 header:
   overlay_image: "/assets/images/background2.jpg"
@@ -13,8 +13,16 @@ header:
 > SQL powered data analysis regarding MVC institution’s financial impacts on both the men’s and the women’s basketball teams.
 
 # Database Project: MVC Men’s & Women’s Basketball
-## <a href="/assets/images/IS160FinalProject.pdf" download><strong>Download my Final Presentation!</strong></a>
 
-Above is the link to my Final Project for my database management course. I used SQL to analyze to understand each MVC institution’s financial impacts on both the men’s and the women’s basketball teams pertaining to each individual team, gender disparities, and size and locational impacts.
+Below is the report for my Final Project for my database management course. We used **SQL** to analyze to understand each MVC institution’s financial impacts on both the men’s and the women’s basketball teams pertaining to each individual team, gender disparities, and size and locational impacts. This document includes screenshots and code for all of the **data cleaning steps**, an **entity relationship diagram** of the 5 tables we created in Visio, and visualizations in **PowerBI.**
+
+
+<iframe 
+  src="/assets/images/IS160FinalProject.pdf" 
+  width="100%" 
+  height="600px" 
+  style="border: none;">
+</iframe>
+
 
 ### Additional work:
