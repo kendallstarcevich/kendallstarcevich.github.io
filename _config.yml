@@ -31,9 +31,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.27.3" #most updated version
 
 plugins:
   - jekyll-remote-theme
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
