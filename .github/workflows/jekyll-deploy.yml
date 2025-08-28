@@ -11,6 +11,8 @@ jobs:
     steps:
       # Step 2a: Check out your repo
       - uses: actions/checkout@v3
+        with: 
+          persist-credentials: false
 
       # Step 2b: Set up Ruby
       - name: Set up Ruby
