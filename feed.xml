@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://kendallstarcevich.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kendallstarcevich.github.io/" rel="alternate" type="text/html" /><updated>2025-08-28T15:45:07+00:00</updated><id>https://kendallstarcevich.github.io/feed.xml</id><title type="html">Kendall Starcevich</title><subtitle>Kendall Starcevich&apos;s portfolio website.</subtitle><entry><title type="html">Amazon Cognito Demo</title><link href="https://kendallstarcevich.github.io/work/2025/05/12/CS178P2.html" rel="alternate" type="text/html" title="Amazon Cognito Demo" /><published>2025-05-12T19:36:07+00:00</published><updated>2025-05-12T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2025/05/12/CS178P2</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2025/05/12/CS178P2.html"><![CDATA[<blockquote>
+  <p>A tutorial that will walk through a step-by-step demo that creates a simple locally hosted web app with an Amazon Cognito powered login/signup.</p>
+</blockquote>
+
+<h1 id="amazon-cognito-demo">Amazon Cognito Demo</h1>
+<p>I taught myself Amazon Cognito, an AWS User Authentication and Access Control service. I created a tutorial that will walk through a step-by-step demo that creates a simple locally hosted web app with an Amazon Cognito powered login/signup.</p>
+
+<p>The <a href="https://hackmd.io/@IZ4dLAWgT-OlUrBGFei8ug/rkTSuXYlex#CS178-Project-2-Amazon-Cognito">demo link</a> includes an in depth explanation of Amazon Cognito’s uses, pricing, and pros and cons along with the code, project summary, and setup and run instructions.</p>
+
+<p><strong>Demo Video</strong></p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe src="https://www.youtube.com/embed/jWrWSsUD_tE" frameborder="0" allowfullscreen="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
+
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="AWS" /><category term="Development" /><summary type="html"><![CDATA[A tutorial that will walk through a step-by-step demo that creates a simple locally hosted web app with an Amazon Cognito powered login/signup.]]></summary></entry><entry><title type="html">HIPAAi: Secure HIPAA Compliant AI Chatbot</title><link href="https://kendallstarcevich.github.io/work/2025/05/08/AICap.html" rel="alternate" type="text/html" title="HIPAAi: Secure HIPAA Compliant AI Chatbot" /><published>2025-05-08T19:36:07+00:00</published><updated>2025-05-08T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2025/05/08/AICap</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2025/05/08/AICap.html"><![CDATA[<blockquote>
+  <p>AI Capstone Project that creates a HIPAA Compliant AI Chatbot using Langchain.</p>
+</blockquote>
+
+<h1 id="ai-capstone-secure-hipaa-compliant-ai-chatbot-hipaai">AI Capstone Secure HIPAA Compliant AI Chatbot (HIPAAi)</h1>
+<p>My Capstone Group developed a secure, role-based AI chatbot tailored for the health insurance industry to theoretically ensure compliance with HIPAA regulations. The chatbot uses a custom dataset and restricts information access based on user roles through a secure login system. We implemented early fine-tuning, role-specific permissions, and began integrating data privacy features. Built with <strong>LangChain</strong> and <strong>GPT-4</strong>, the project aims to offer a trusted conversational interface for sensitive insurance queries.</p>
+
+<p>Watch a quick video demo below</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe src="https://www.youtube.com/embed/Emzrkhw-rnU" frameborder="0" allowfullscreen="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
+
+<p>or view the presentation, including a more in-depth overview and the code below</p>
+
+<iframe src="/assets/images/HIPPAIcapstone.pdf" width="100%" height="600px" style="border: none;">
+</iframe>
+
+<p>You can also download the training dataset <a href="/assets/images/mergedinfo.pdf" download=""><strong>here</strong></a>.</p>
+
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="AI" /><category term="Python" /><summary type="html"><![CDATA[AI Capstone Project that creates a HIPAA Compliant AI Chatbot using Langchain.]]></summary></entry><entry><title type="html">KMEANS Consulting for Wellabe (DIIL)</title><link href="https://kendallstarcevich.github.io/work/2025/04/24/Wellabe.html" rel="alternate" type="text/html" title="KMEANS Consulting for Wellabe (DIIL)" /><published>2025-04-24T19:36:07+00:00</published><updated>2025-04-24T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2025/04/24/Wellabe</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2025/04/24/Wellabe.html"><![CDATA[<blockquote>
+  <p>A project using k-means clustering to segment Wellabe customers.</p>
+</blockquote>
+
+<h1 id="wellabe-consultation-project">Wellabe Consultation Project</h1>
+
+<p>This project was a part of my experience in the <a href="/work/2024/09/05/DIIL.html">Drake Insurance Innovation Lab</a></p>
+
+<p><strong>Objective</strong>: Optimize engagement personalization using data analysis. Considering how important personalization is to an upcoming Wellabe Rewards Program, identify how I would segment their population and why? Highlight the value to the program, how these segments impact engagement, and what my research shows.</p>
+
+<p>This project used a combination of SQL and Python in a <strong>Snowflake</strong> enviornment to form <strong>k-means clusters</strong> to segment Wellabe customers based on behavioral, demographic, and interest data.</p>
+
+<p>Below is the presentation given to Wellabe shareholders and the Iowa Insurance Community</p>
+
+<iframe src="/assets/images/DIILPresentation.pdf" width="100%" height="600px" style="border: none;">
+</iframe>
+
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="Internships" /><category term="SQL" /><category term="Python" /><category term="Snowflake" /><summary type="html"><![CDATA[A project using k-means clustering to segment Wellabe customers.]]></summary></entry><entry><title type="html">Airbnb Seattle Web App (Flask + AWS)</title><link href="https://kendallstarcevich.github.io/work/2025/04/17/CS178P1.html" rel="alternate" type="text/html" title="Airbnb Seattle Web App (Flask + AWS)" /><published>2025-04-17T19:36:07+00:00</published><updated>2025-04-17T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2025/04/17/CS178P1</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2025/04/17/CS178P1.html"><![CDATA[<blockquote>
+  <p>A full-stack Flask web application for browsing and managing Seattle Airbnb listings and reviews.</p>
+</blockquote>
+
+<h1 id="airbnb-seattle-web-app-project">Airbnb Seattle Web App Project</h1>
+<p>A full-stack Flask web application for browsing and managing Seattle Airbnb listings and reviews. It integrates a MySQL database (AWS RDS) for listings/reviews and DynamoDB for user authentication. Users can sign up, log in, post/delete reviews, and browse listings by price, room type, and neighborhood. Deployed on AWS EC2.</p>
+
+<p>The <a href="https://github.com/kendallstarcevich/CS178Project1">Github Repo</a> includes the code, project summary, and setup and run instructions.</p>
+
+<p><strong>Video Demo</strong></p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe src="https://www.youtube.com/embed/qYj85HC9niE" frameborder="0" allowfullscreen="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
+
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="AWS" /><category term="Python" /><category term="Flask" /><category term="Development" /><category term="SQL" /><summary type="html"><![CDATA[A full-stack Flask web application for browsing and managing Seattle Airbnb listings and reviews.]]></summary></entry><entry><title type="html">Fine-Grained Visual Categorization (FGVC) of Bird Species</title><link href="https://kendallstarcevich.github.io/work/2024/12/10/CS167P2.html" rel="alternate" type="text/html" title="Fine-Grained Visual Categorization (FGVC) of Bird Species" /><published>2024-12-10T19:36:07+00:00</published><updated>2024-12-10T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2024/12/10/CS167P2</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2024/12/10/CS167P2.html"><![CDATA[<blockquote>
+  <p>Comparison of convolutional neural network (CNN) models’ abilities to accurately classify bird species</p>
+</blockquote>
+
+<h1 id="fine-grained-visual-categorization-fgvc-of-bird-species">Fine-Grained Visual Categorization (FGVC) of Bird Species</h1>
+
+<p>In this deep learning project, I developed and evaluated convolutional neural network (CNN) models to accurately classify bird species from images using the Bird Species Dataset, which includes 25 different categories.</p>
+
+<p>I implemented and compared three powerful CNN architectures:</p>
+
+<ol>
+  <li><strong>AlexNet</strong></li>
+  <li><strong>VGGNet</strong></li>
+  <li><strong>ResNet</strong></li>
+</ol>
+
+<p>with various optimizers (Adam, SGD, RMSprop) to determine which combination yielded the highest classification accuracy. All models were trained using <strong>PyTorch</strong>, with standard preprocessing (resizing, tensor conversion, and ImageNet normalization), and evaluated using accuracy, confusion matrices, and average loss curves to track performance and learning progress.</p>
+
+<p><strong>Key techniques used include:</strong></p>
+
+<ul>
+  <li>
+    <p>Transfer learning and model fine-tuning</p>
+  </li>
+  <li>
+    <p>Data batching and shuffling using DataLoader</p>
+  </li>
+  <li>
+    <p>Model evaluation with cross-entropy loss and visual diagnostics</p>
+  </li>
+  <li>
+    <p>Hyperparameter tuning (learning rate, batch size, epochs)</p>
+  </li>
+</ul>
+
+<p><strong>The <a href="https://colab.research.google.com/drive/1eI6C4KDDTpx-EyrL9ggbJvpgYM98On0a?usp=sharing">Complete Project Colab Link</a> includes the code, training visualizations, model comparisons, and detailed conclusions about model behavior and optimizer effects.</strong></p>
+
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="Python" /><category term="ML" /><summary type="html"><![CDATA[Comparison of convolutional neural network (CNN) models' abilities to accurately classify bird species]]></summary></entry><entry><title type="html">MIPS CPU Design Project</title><link href="https://kendallstarcevich.github.io/work/2024/11/05/CPU.html" rel="alternate" type="text/html" title="MIPS CPU Design Project" /><published>2024-11-05T19:36:07+00:00</published><updated>2024-11-05T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2024/11/05/CPU</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2024/11/05/CPU.html"><![CDATA[<blockquote>
+  <p>A MIPS CPU in Logisim to support a wider range of instructions, including arithmetic, logical, and set-on-less-than operations</p>
+</blockquote>
+
+<h1 id="computer-organization-project-mips-cpu-design-project">Computer Organization Project: MIPS CPU Design Project</h1>
+
+<p>For this project, I extended a partial MIPS CPU in Logisim to support a wider range of instructions, including arithmetic, logical, and set-on-less-than operations (add, addi, sub, and, or, xor, andi, ori, xori, slt, slti). I wrote a custom MIPS program in MARS, manually loaded its machine code into the instruction memory, and verified correct execution using simulated register outputs.
+Deliverables include screenshots of the MIPS program, control unit truth table, circuit diagrams, and register outputs—with a written explanation confirming the correctness of computed values.</p>
+
+<h2 id="registercontents-explanation">RegisterContents Explanation:</h2>
+
+<p>The value ‘3’ is correct in Register $13 because it is the final result of every line before. Here are the comments that I put in my code that explain each line:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Store 10 in $2
+
+# Store 5 in $3
+
+# 10 or 5 = 15 in $4
+
+# 15 or 0 = 15 in $5
+
+# 10 xor 5 = 15 in $6
+
+# 5 xor 2 = 7 in $7
+
+# 15 and 7 = 7 in $8
+
+# 7 and 3 = 3 in $9
+
+# 3 &lt; 7 = 1 in $10
+
+# 1 &lt; 1 = 0 in $11
+
+# 7 + 0 = 7 in $12
+
+# 10 - 7 = 3 FINAL ANSWER in $13
+</code></pre></div></div>
+<h2 id="logisim-cpu-diagram">Logisim CPU Diagram:</h2>
+<p><img src="/assets/images/CPU.png" alt="CPU" /></p>
+
+<h2 id="components-and-control-logic">Components and Control Logic:</h2>
+<p><strong>Control Circut</strong>:</p>
+
+<p><img src="/assets/images/controlcircuit.png" alt="Control Circuit" />
+<strong>Control Unit Truth Table</strong>:</p>
+
+<p><img src="/assets/images/truthtable.png" alt="Control Unit Truth Table" /></p>
+
+<h2 id="program-execution">Program Execution:</h2>
+<p><strong>MIPS Test Segment (MARS)</strong>:</p>
+
+<p><img src="/assets/images/testsegment.png" alt="MIPS Test Segment" /></p>
+
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="MIPS" /><summary type="html"><![CDATA[A MIPS CPU in Logisim to support a wider range of instructions, including arithmetic, logical, and set-on-less-than operations]]></summary></entry><entry><title type="html">Graduate Admission Prediction Project</title><link href="https://kendallstarcevich.github.io/work/2024/11/04/CS167P1.html" rel="alternate" type="text/html" title="Graduate Admission Prediction Project" /><published>2024-11-04T19:36:07+00:00</published><updated>2024-11-04T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2024/11/04/CS167P1</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2024/11/04/CS167P1.html"><![CDATA[<blockquote>
+  <p>A Machine Learning project consisting of kNN, Decision Tree, and Random Forest models that predict the chance of graduate college admission.</p>
+</blockquote>
+
+<h1 id="graduate-admission-prediction-project">Graduate Admission Prediction Project</h1>
+
+<p>This project analyzes a Kaggle dataset containing 400 university admission profiles, featuring GRE scores, TOEFL scores, university ratings, statement of purpose (SOP) and recommendation letter (LOR) strengths, undergraduate GPA, research experience, and the chance of admission.</p>
+
+<p>The goal was to <strong>build regression models that predict the chance of admission based on the other features</strong>. This type of predictive tool could be valuable for prospective graduate students to estimate their admission likelihood before investing time and money into applications.</p>
+
+<p><strong>I implemented and compared several regression algorithms including:</strong></p>
+
+<ul>
+  <li>
+    <p>k-Nearest Neighbors (kNN), both weighted and unweighted,</p>
+  </li>
+  <li>
+    <p>Decision Tree,</p>
+  </li>
+  <li>
+    <p>Random Forest.</p>
+  </li>
+</ul>
+
+<p><strong>The <a href="https://colab.research.google.com/drive/1y85FcBFOrVI8ds3xRVl4tKKSombP5dHx?usp=sharing">Complete Project Colab Link</a> includes:</strong></p>
+
+<ul>
+  <li>
+    <p>Data preprocessing and normalization code,</p>
+  </li>
+  <li>
+    <p>Model training, tuning, and evaluation scripts,</p>
+  </li>
+  <li>
+    <p>Test results with MAE scores,</p>
+  </li>
+  <li>
+    <p>Visualizations such as feature importance plots,</p>
+  </li>
+  <li>
+    <p>Detailed comments explaining each step.</p>
+  </li>
+</ul>
+
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="Python" /><category term="ML" /><summary type="html"><![CDATA[A Machine Learning project consisting of kNN, Decision Tree, and Random Forest models that predict the chance of graduate college admission based on admission.]]></summary></entry><entry><title type="html">32-bit ALU in Logism</title><link href="https://kendallstarcevich.github.io/work/2024/10/17/32-bitALU.html" rel="alternate" type="text/html" title="32-bit ALU in Logism" /><published>2024-10-17T19:36:07+00:00</published><updated>2024-10-17T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2024/10/17/32-bitALU</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2024/10/17/32-bitALU.html"><![CDATA[<blockquote>
+  <p>A 32-bit ALU built in Logism that allows for adding, subtracting, and, or, not, xor, and slt operations. Tests Included.</p>
+</blockquote>
+
+<h1 id="computer-organization-project-32-bit-alu-design">Computer Organization Project: 32-bit ALU Design</h1>
+
+<p>This project was part of a course focused on computer organization and architecture, covering internal data representation, assembly language, memory addressing, and digital circuit design.</p>
+
+<p><strong>I designed a 32-bit Arithmetic Logic Unit (ALU)</strong> in Logisim capable of performing several core operations:
+add, sub, and, or, not, xor, and slt.</p>
+
+<p><strong>Key features include:</strong></p>
+
+<ul>
+  <li>
+    <p>Efficient reuse of a single adder for both addition and subtraction</p>
+  </li>
+  <li>
+    <p>SLT (set-on-less-than) logic built on top of the adder circuit</p>
+  </li>
+  <li>
+    <p>A custom test vector system with descriptive comments for validation</p>
+  </li>
+</ul>
+
+<p>Deliverables include circuit diagrams of the ALU and components, a well-documented test vector, and test result screenshots confirming correct functionality.</p>
+
+<h2 id="core-components">Core Components:</h2>
+
+<p><strong>Complete 32-bit Adder/Subtractor</strong>:</p>
+
+<p><img src="/assets/images/addsub.png" alt="Complete 32-bit Adder/Subtractor" />
+<strong>Full Adder</strong>:</p>
+
+<p><img src="/assets/images/fulladder.png" alt="Full Adder" />
+<strong>Full ALU Design</strong>:</p>
+
+<p><img src="/assets/images/ALU.png" alt="ALU" /></p>
+
+<h2 id="testing-and-verification">Testing and Verification:</h2>
+
+<p><strong>Custom Test Vector:</strong></p>
+
+<p><img src="/assets/images/testvector.png" alt="Test Vector" />
+<strong>Result of Test Vector:</strong></p>
+
+<p><img src="/assets/images/testresult.png" alt="Result of Test Vector" /></p>
+
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="MIPS" /><summary type="html"><![CDATA[A 32-bit ALU built in Logism that allows for adding, subtracting, and, or, not, xor, and slt operations. Tests Included.]]></summary></entry><entry><title type="html">Drake Insurance Innovation Lab Internship</title><link href="https://kendallstarcevich.github.io/work/2024/09/05/DIIL.html" rel="alternate" type="text/html" title="Drake Insurance Innovation Lab Internship" /><published>2024-09-05T19:36:07+00:00</published><updated>2024-09-05T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2024/09/05/DIIL</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2024/09/05/DIIL.html"><![CDATA[<blockquote>
+  <p>My experience with Drake Insurance Innovation Lab Internship.</p>
+</blockquote>
+
+<h1 id="drake-insurance-innovation-lab-internship">Drake Insurance Innovation Lab Internship</h1>
+
+<h4 id="i-am-an-intern-at-the-kelley-center-for-insurance-innovation-in-the-innovation-lab">I am an intern at the <a href="https://www.drake.edu/actsci/emc/">Kelley Center for Insurance Innovation</a> in the Innovation Lab.</h4>
+
+<p>• As the group’s <strong>Data Scientist</strong>, set to develop strategic solutions for <a href="/work/2025/04/24/Wellabe.html">Wellabe’s new
+rewards program launch</a>, delivering recommendations to senior executives.</p>
+
+<p>• Scheduled for discussions with leaders from Global Insurance Accelerator and
+BrokerTech Ventures on mentorship and accelerator processes.</p>
+
+<p>• Will attend regulatory and investment strategy seminars with Iowa Insurance
+Commissioner and venture capitalists.</p>
+
+<p>• Preparing to analyze innovation practices with ten carriers and brokers in the next coming year.</p>
+
+<p><strong><a href="https://www.linkedin.com/posts/kevin-croft-109a793_insuranceindustry-riskmanagement-talentpipeline-activity-7311144019542097922-S7ly?utm_source=social_share_send&amp;utm_medium=member_desktop_web&amp;rcm=ACoAAEZqK7IBPNuG1CNeNZN8xBFJQXNp8Zt-3Hs">Here</a> is a LinkedIn post about the experience!</strong></p>
+
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="Internships" /><summary type="html"><![CDATA[This is a description of my internship with DIIL.]]></summary></entry><entry><title type="html">Insure Your Future Internship Program</title><link href="https://kendallstarcevich.github.io/work/2024/05/20/InsureYourFuture.html" rel="alternate" type="text/html" title="Insure Your Future Internship Program" /><published>2024-05-20T19:36:07+00:00</published><updated>2024-05-20T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2024/05/20/InsureYourFuture</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2024/05/20/InsureYourFuture.html"><![CDATA[<blockquote>
+  <p>My experience with Iowa Economic Authority’s Insure Your Future Internship Program.</p>
+</blockquote>
+
+<h1 id="iyf-internship-program">IYF Internship Program</h1>
+
+<p><img src="/assets/images/IYF.jpeg" alt="IYF Program" /></p>
+
+<p>In addition to my Internship at Wellmark, I participated in the <a href="https://opportunityiowa.gov/business/iowa-advantage/key-industries/finance-insurance/insure-your-future-internship">Iowa Economic Authority’s Insure Your Future Internship Program</a> for first and second year college interns in different financial and insurance companies across Iowa. I describe my experience in the view below, which I <strong>received a scholarship for</strong>.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe src="https://www.youtube.com/embed/AClYYkHYdGs" frameborder="0" allowfullscreen="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
+
+<p><strong>LinkedIn Posts about my scholarship from:</strong></p>
+
+<ul>
+  <li>
+    <p><a href="https://www.linkedin.com/posts/wellmark_thank-you-so-much-to-the-iowa-insurance-hall-ugcPost-7250179239117766656-wLpl?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAEZqK7IBPNuG1CNeNZN8xBFJQXNp8Zt-3Hs">Wellmark</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.linkedin.com/posts/iowa-insurance-hall-of-fame_in-addition-to-recognizing-our-four-inductees-activity-7246230737945829377-okfG?utm_source=social_share_send&amp;utm_medium=member_desktop_web&amp;rcm=ACoAAEZqK7IBPNuG1CNeNZN8xBFJQXNp8Zt-3Hs">Iowa Insurance Hall of Fame</a></p>
+  </li>
+</ul>
+
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="Internships" /><summary type="html"><![CDATA[This is a description of my internship with Insure Your Future summer 2024.]]></summary></entry></feed>

@@ -1,0 +1,456 @@
+@charset "UTF-8";
+body {
+  color: #cbd5e1; /* Light slate gray text */
+  background-color: #0f172a; /* Very dark navy background */
+  background-image: radial-gradient(circle at 1px 1px, rgba(203, 213, 225, 0.04) 1px, transparent 0);
+  background-size: 20px 20px;
+  font-family: "Work Sans", sans-serif;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: underline;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+a:visited {
+  color: #38bdf8;
+}
+
+a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 6px #7ef9c4;
+}
+
+.tooltip {
+  position: relative;
+  cursor: help;
+  display: inline-block;
+}
+
+.toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 1.5em 0;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.toc a {
+  background-color: #e1efff; /* Light sky blue */
+  color: #0a1f44; /* Deep navy */
+  text-decoration: none;
+  padding: 0.4em 0.75em;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.95em;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.toc a:hover,
+.toc a:focus {
+  background-color: #cde7ff; /* Brighter hover blue */
+  color: #0a1f44;
+  transform: scale(1.05);
+  outline: none;
+}
+
+.tooltip::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(8px);
+  background-color: #1f2937; /* Dark navy */
+  color: #f4f4f4;
+  padding: 10px 14px;
+  border-radius: 8px;
+  white-space: normal;
+  max-width: 70vw; /* Allow long descriptions */
+  width: max-content;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 9999;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.tooltip:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Headers */
+h1,
+h2 {
+  color: #e2e8f0; /* Soft light gray-blue */
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+
+strong {
+  color: #ff6668; /* or any contrasting color */
+  font-weight: 700;
+}
+
+/* Make regular h3 a brighter sky blue to stand out more */
+h3 {
+  clear: both;
+  color: #38bdf8; /* Bright sky blue */
+  font-family: "Rubik", sans-serif;
+  font-size: 1.35em;
+  font-weight: 600;
+}
+
+/* Optionally, make archive subtitles a softer lighter blue for subtle difference */
+h3.archive__subtitle {
+  color: #60a5fa; /* Softer sky blue */
+}
+
+/* Body text and smaller headings */
+p,
+.sidebar p,
+.archive__item-title,
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+#main {
+  position: relative;
+}
+
+/* General link styles including icons */
+.author__urls.social-icons a,
+.author__urls.social-icons a:visited,
+.page__footer a,
+.page__footer a:visited {
+  color: #94a3b8; /* Soft neutral slate-blue for text and icons */
+  font-weight: 700;
+  transition: color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-flex;
+  align-items: center;
+}
+
+.author__urls.social-icons a:hover,
+.page__footer a:hover {
+  color: #38bdf8; /* Sky blue accent on hover */
+  text-decoration: underline;
+}
+
+.author__urls.social-icons a {
+  font-size: 0.7rem;
+}
+
+/* Icon styles */
+.author__urls.social-icons a i {
+  font-size: 1.2em; /* bigger icons */
+  margin-right: 0.4em;
+  color: #64748b; /* Muted slate for icons */
+  transition: color 0.3s ease, transform 0.3s ease;
+  will-change: transform, color;
+}
+
+/* Sidebar styling */
+.sidebar.sticky {
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.4); /* subtle navy shadow */
+  width: 300px;
+  background-color: #1e293b; /* Dark navy background */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  color: #f1f5f9; /* Light gray-blue text */
+}
+
+/* Hover effect on social icon links */
+.author__urls.social-icons a:hover {
+  background-color: rgba(56, 189, 248, 0.15); /* Sky blue glow on hover */
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+  transform: scale(1.05);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Icon glow and subtle scale on hover */
+.author__urls.social-icons a:hover i {
+  color: #38bdf8; /* Sky blue accent on icon hover */
+  text-shadow: 0 0 6px rgba(56, 189, 248, 0.7);
+  transform: scale(1.1);
+}
+
+/* Media queries */
+@media only screen and (min-width: 900px) {
+  .sticky {
+    top: 4em;
+  }
+  .masthead.sticky {
+    top: 0;
+  }
+  h3.author__name {
+    color: #f1f5f9; /* Light gray-blue heading */
+    transition: color 0.3s ease;
+  }
+  .sidebar.sticky {
+    padding: 1em;
+    max-height: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0em;
+    bottom: 0;
+  }
+}
+.page__footer {
+  margin-top: 0;
+  background-color: #1e293b; /* Deep navy */
+  color: #ffffff; /* Optional: white text for contrast */
+  padding: 1em 0; /* Optional: add space inside the footer */
+}
+
+.archive__item {
+  padding: 0.5em;
+  border: thin solid #334155; /* Dark slate navy border */
+  background-color: #1e293b; /* Dark navy card background */
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.6); /* subtle navy shadow */
+  transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+  will-change: box-shadow, transform, background-color;
+  color: #cbd5e1; /* Light slate text */
+}
+
+.archive__item:hover,
+.archive__item:focus-within {
+  box-shadow: 0 8px 20px rgba(56, 189, 248, 0.8); /* bright sky blue glow */
+  transform: translateY(-4px);
+  background-color: #0f172a; /* even darker navy on hover */
+  outline: none;
+  color: #e0f2fe; /* lighter sky blue text on hover */
+}
+
+@media only screen and (min-width: 900px) {
+  .work .grid__item .archive__item {
+    min-height: 13em;
+  }
+  article.archive__item {
+    height: 17em;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .archive__item-teaser img {
+    height: auto !important;
+    width: 100% !important;
+    position: absolute;
+    top: -50%;
+    transition: opacity 0.4s ease;
+    opacity: 0.9;
+  }
+  .archive__item-teaser img:hover,
+  .archive__item-teaser img:focus {
+    opacity: 1;
+  }
+}
+@media (min-width: 48em) {
+  .grid__item .archive__item .archive__item-excerpt {
+    font-size: 0.6em;
+    color: #94a3b8; /* muted slate for excerpt text */
+  }
+}
+.grid__item .archive__item-title {
+  font-size: 0.9em;
+  transition: color 0.3s ease;
+  color: #cbd5e1; /* light slate */
+}
+
+.archive__item-title:hover,
+.archive__item-title:focus {
+  color: #38bdf8; /* bright sky blue accent */
+  text-decoration: underline;
+  outline: none;
+}
+
+.archive__item-teaser {
+  border: thin solid #334155; /* slate navy border */
+  height: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.archive__item-teaser:hover,
+.archive__item-teaser:focus {
+  border-color: #38bdf8; /* sky blue border on hover */
+  outline: none;
+}
+
+.archive__item-teaser img {
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+.archive__item-teaser img:hover,
+.archive__item-teaser img:focus {
+  transform: scale(1.05);
+  outline: none;
+}
+
+img.avatar {
+  float: left;
+  width: 30%;
+  margin: 0 1em 2em 0;
+  border-radius: 12px; /* Soften edges */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, outline 0.3s ease;
+  will-change: transform, box-shadow;
+  cursor: default;
+  display: block;
+  object-fit: cover;
+}
+
+img.avatar:hover,
+img.avatar:focus {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15), 0 0 12px #38bdf8; /* ✨ sky blue glow */
+  outline: 2px solid #38bdf8;
+  outline-offset: 4px;
+}
+
+.masthead {
+  background-color: #1e293b; /* Sleek deep navy */
+}
+
+#site-nav {
+  background-color: transparent;
+  position: relative;
+}
+
+#site-nav a,
+#site-nav a:visited {
+  color: #cbd5e1; /* Soft sky blue/light gray */
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease, background-color 0.3s ease;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+#site-nav a:hover,
+#site-nav a:focus {
+  color: #38bdf8; /* Sky blue accent */
+  text-shadow: 0 0 8px rgba(56, 189, 248, 0.6);
+  background-color: rgba(56, 189, 248, 0.15);
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(56, 189, 248, 0.4);
+}
+
+#site-nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #38bdf8; /* Sky blue underline */
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+
+#site-nav a:hover::after,
+#site-nav a:focus::after {
+  width: 100%;
+}
+
+.page__hero--overlay {
+  margin-bottom: 0;
+  animation: fadeInOverlay 0.8s ease forwards;
+}
+
+.page__hero--overlay .wrapper {
+  background-color: rgba(10, 31, 68, 0.75); /* Deep navy with subtle transparency */
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(56, 189, 248, 0.2); /* Soft sky blue glow */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  border-left: 4px solid #38bdf8; /* Sky blue accent bar */
+}
+
+@keyframes fadeInOverlay {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.taxonomy__section {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3em;
+  transition: padding-top 0.3s ease;
+}
+
+.taxonomy__section + .taxonomy__section {
+  margin-top: 0;
+}
+
+.taxonomy__section h3 {
+  margin-top: 0;
+  font-weight: 600;
+  color: #0a1f44; /* Sleek deep navy */
+  transition: color 0.3s ease;
+}
+
+.taxonomy__section h3:hover,
+.taxonomy__section h3:focus {
+  color: #38bdf8; /* Sky blue accent */
+  cursor: default;
+  outline: none;
+}
+
+/* Taxonomy index links */
+.taxonomy__index a {
+  border: none;
+  padding: 0 8px;
+  border-radius: 5px;
+  background-color: #e1efff; /* Very light sky blue background */
+  color: #0a1f44; /* Deep navy text */
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.taxonomy__index a strong {
+  color: inherit;
+  font-weight: inherit;
+}
+
+.taxonomy__index a:hover,
+.taxonomy__index a:focus {
+  background-color: #d0e8ff; /* Slightly brighter sky blue on hover */
+  color: #38bdf8; /* Sky blue text on hover */
+  box-shadow: 0 0 8px rgba(56, 189, 248, 0.5); /* Soft sky blue glow */
+  transform: scale(1.05);
+  outline: none;
+}
+
+/*# sourceMappingURL=custom.css.map */

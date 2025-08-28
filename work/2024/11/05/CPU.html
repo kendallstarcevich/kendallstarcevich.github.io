@@ -1,0 +1,839 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.3 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>MIPS CPU Design Project - Kendall Starcevich</title>
+<meta name="description" content="A MIPS CPU in Logisim to support a wider range of instructions, including arithmetic, logical, and set-on-less-than operations">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Kendall Starcevich">
+<meta property="og:title" content="MIPS CPU Design Project">
+<meta property="og:url" content="https://kendallstarcevich.github.io/work/2024/11/05/CPU.html">
+
+
+  <meta property="og:description" content="A MIPS CPU in Logisim to support a wider range of instructions, including arithmetic, logical, and set-on-less-than operations">
+
+
+
+  <meta property="og:image" content="https://kendallstarcevich.github.io/assets/images/combackground.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2024-11-05T19:36:07+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://kendallstarcevich.github.io/work/2024/11/05/CPU.html">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Kendall Starcevich Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <link rel="stylesheet" href="/assets/css/custom.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+  </head>
+
+  <body class="layout--posts" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Kendall Starcevich
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/"
+                
+                
+              >Home</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/mywork"
+                
+                
+              >My Work</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/myaccomplishments"
+                
+                
+              >My Accomplishments</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/about"
+                
+                
+              >About Me</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: url('/assets/images/combackground.jpg');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          MIPS CPU Design Project
+
+        
+      </h1>
+      
+        <p class="page__lead"><blockquote>
+  A MIPS CPU in Logisim to support a wider range of instructions, including arithmetic, logical, and set-on-less-than operations
+</blockquote>
+</p>
+      
+      
+
+
+      
+    </div>
+  
+  
+    <span class="page__hero-caption">Photo credit: <a href="https://unsplash.com">Unsplash</a>
+</span>
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="archive">
+    
+    <blockquote>
+  <p>A MIPS CPU in Logisim to support a wider range of instructions, including arithmetic, logical, and set-on-less-than operations</p>
+</blockquote>
+
+<h1 id="computer-organization-project-mips-cpu-design-project">Computer Organization Project: MIPS CPU Design Project</h1>
+
+<p>For this project, I extended a partial MIPS CPU in Logisim to support a wider range of instructions, including arithmetic, logical, and set-on-less-than operations (add, addi, sub, and, or, xor, andi, ori, xori, slt, slti). I wrote a custom MIPS program in MARS, manually loaded its machine code into the instruction memory, and verified correct execution using simulated register outputs.
+Deliverables include screenshots of the MIPS program, control unit truth table, circuit diagrams, and register outputs—with a written explanation confirming the correctness of computed values.</p>
+
+<h2 id="registercontents-explanation">RegisterContents Explanation:</h2>
+
+<p>The value ‘3’ is correct in Register $13 because it is the final result of every line before. Here are the comments that I put in my code that explain each line:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Store 10 in $2
+
+# Store 5 in $3
+
+# 10 or 5 = 15 in $4
+
+# 15 or 0 = 15 in $5
+
+# 10 xor 5 = 15 in $6
+
+# 5 xor 2 = 7 in $7
+
+# 15 and 7 = 7 in $8
+
+# 7 and 3 = 3 in $9
+
+# 3 &lt; 7 = 1 in $10
+
+# 1 &lt; 1 = 0 in $11
+
+# 7 + 0 = 7 in $12
+
+# 10 - 7 = 3 FINAL ANSWER in $13
+</code></pre></div></div>
+<h2 id="logisim-cpu-diagram">Logisim CPU Diagram:</h2>
+<p><img src="/assets/images/CPU.png" alt="CPU" /></p>
+
+<h2 id="components-and-control-logic">Components and Control Logic:</h2>
+<p><strong>Control Circut</strong>:</p>
+
+<p><img src="/assets/images/controlcircuit.png" alt="Control Circuit" />
+<strong>Control Unit Truth Table</strong>:</p>
+
+<p><img src="/assets/images/truthtable.png" alt="Control Unit Truth Table" /></p>
+
+<h2 id="program-execution">Program Execution:</h2>
+<p><strong>MIPS Test Segment (MARS)</strong>:</p>
+
+<p><img src="/assets/images/testsegment.png" alt="MIPS Test Segment" /></p>
+
+<h3 id="additional-work">Additional work:</h3>
+
+
+<ul class="taxonomy__index">
+  
+  
+    <li>
+      <a href="#2025">
+        <strong>2025</strong> <span class="taxonomy__count">4</span>
+      </a>
+    </li>
+  
+    <li>
+      <a href="#2024">
+        <strong>2024</strong> <span class="taxonomy__count">14</span>
+      </a>
+    </li>
+  
+    <li>
+      <a href="#2023">
+        <strong>2023</strong> <span class="taxonomy__count">2</span>
+      </a>
+    </li>
+  
+</ul>
+
+
+
+
+  <section id="2025" class="taxonomy__section">
+    <h2 class="archive__subtitle">2025</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2025/05/12/CS178P2.html" rel="permalink">Amazon Cognito Demo
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  A tutorial that will walk through a step-by-step demo that creates a simple locally hosted web app with an Amazon Cognito powered login/signup.
+
+</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2025/05/08/AICap.html" rel="permalink">HIPAAi: Secure HIPAA Compliant AI Chatbot
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  AI Capstone Project that creates a HIPAA Compliant AI Chatbot using Langchain.
+
+</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2025/04/24/Wellabe.html" rel="permalink">KMEANS Consulting for Wellabe (DIIL)
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  A project using k-means clustering to segment Wellabe customers.
+
+</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2025/04/17/CS178P1.html" rel="permalink">Airbnb Seattle Web App (Flask + AWS)
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  A full-stack Flask web application for browsing and managing Seattle Airbnb listings and reviews.
+
+</p>
+  </article>
+</div>
+
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
+  </section>
+
+  <section id="2024" class="taxonomy__section">
+    <h2 class="archive__subtitle">2024</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2024/12/10/CS167P2.html" rel="permalink">Fine-Grained Visual Categorization (FGVC) of Bird Species
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  Comparison of convolutional neural network (CNN) models’ abilities to accurately classify bird species
+
+</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2024/11/05/CPU.html" rel="permalink">MIPS CPU Design Project
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  A MIPS CPU in Logisim to support a wider range of instructions, including arithmetic, logical, and set-on-less-than operations
+
+</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2024/11/04/CS167P1.html" rel="permalink">Graduate Admission Prediction Project
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  A Machine Learning project consisting of kNN, Decision Tree, and Random Forest models that predict the chance of graduate college admission.
+
+</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2024/10/17/32-bitALU.html" rel="permalink">32-bit ALU in Logism
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  A 32-bit ALU built in Logism that allows for adding, subtracting, and, or, not, xor, and slt operations. Tests Included.
+
+</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2024/09/05/DIIL.html" rel="permalink">Drake Insurance Innovation Lab Internship
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  My experience with Drake Insurance Innovation Lab Internship.
+
+</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2024/05/20/WellmarkInternship.html" rel="permalink">Wellmark Health Services Operations &amp; Systems Internship
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  My projects and impact throughout my internship of Summer 2024.
+
+</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2024/05/20/InsureYourFuture.html" rel="permalink">Insure Your Future Internship Program
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  My experience with Iowa Economic Authority’s Insure Your Future Internship Program.
+
+</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2024/05/10/HCI.html" rel="permalink">Event Calendar Software Solution
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  Completed the entire software development process in a semester long effort to make a University event calendar prototype.
+
+</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2024/05/09/RAGChatbot.html" rel="permalink">Retrieval Augmented Generation Chatbot
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  Improvement and customization of RAG/Semantic Search Chatbot
+
+</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2024/05/04/IS160.html" rel="permalink">MVC Men’s &amp; Women’s Basketball Database
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  SQL powered data analysis regarding MVC institution’s financial impacts on both the men’s and the women’s basketball teams.
+
+</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2024/04/30/ConstraintSatisfactionProblem.html" rel="permalink">Constraint Satisfaction Problem (CSP)
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  A real-life solution to a CSP to create a 4-year plan for a student.
+
+</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2024/04/17/portfolio.html" rel="permalink">Bootstrap Portfolio Website
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  A locally hosted Portfolio Website powered by HTML, Javascript, CSS, and Bootstrap.
+
+</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2024/04/11/Q-LearningForGymnasiumEnvironments.html" rel="permalink">Q-Learning for Gymnasium Environments
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  Q-Learning Algorithm agent in Gymnasium Enviornments
+
+</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2024/02/13/StreetSweeperWorldProjects.html" rel="permalink">Street Sweeper World Projects
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  Three AI bots that interact with similated street network enviromnment to clean streets.
+
+</p>
+  </article>
+</div>
+
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
+  </section>
+
+  <section id="2023" class="taxonomy__section">
+    <h2 class="archive__subtitle">2023</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2023/12/15/OOPFInalProject.html" rel="permalink">OOP Quiz GUI
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  My final Object Oriented Programming Java project where I created a Quiz GUI.
+
+</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/2023/12/12/stat040.html" rel="permalink">Effects on Employment Rates &amp; Income
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+  A statistics project analyzing data based on employment rates and income of different college majors after graduation.
+
+</p>
+  </article>
+</div>
+
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
+  </section>
+
+
+  </div>
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <script src="/assets/js/anime.js"></script>
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2025 <a href="https://kendallstarcevich.github.io">Kendall Starcevich</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
