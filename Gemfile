@@ -11,8 +11,8 @@ gem "github-pages", group: :jekyll_plugins #NEW
 
 #gem "jekyll", "~> 4.3.3"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minimal-mistakes-jekyll"
-gem "jekyll-remote-theme"
+#gem "minimal-mistakes-jekyll"
+#gem "jekyll-remote-theme"
 
 group :jekyll_plugins do
   gem "jekyll-paginate"
