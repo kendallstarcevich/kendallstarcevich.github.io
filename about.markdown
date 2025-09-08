@@ -20,7 +20,7 @@ Since then, I’ve developed a passion for **data science**, particularly **pred
 
 I enjoy the challenge of figuring things out when there isn’t a clear solution — the process of **research**, **troubleshooting**, and **trial and error** is one of the most rewarding parts of the work.  
 
-**I am currently a Data Analyst Intern at Corteva Agriscience for Summer 2025**!
+**I am currently a Data Science Intern at Wellabe** for the 2025-2026 school year!
 
 ## <a id="skills">My Skills</a>
 
@@ -133,7 +133,7 @@ This experience has sharpened my abilities in **multitasking**, **time managemen
 <a id="resume"></a>
 <a id="transcript"></a>
 
-- <a href="/assets/images/KendallStarcevichResume2025.pdf" download>Resume</a>
+- <a href="/assets/images/Kendall_StarcevichResume2025.pdf" download>Resume</a>
 
 - <a href="/assets/images/KendallStarcevichTranscript2025.pdf" download>Unofficial Transcript</a>
 
