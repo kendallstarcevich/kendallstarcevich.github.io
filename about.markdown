@@ -14,7 +14,7 @@ author_profile: true
 </div>
 
 
-I came to Drake University from Olathe, KS, three years ago as an undecided major. After enrolling in an introductory computer science course, I quickly became fascinated with programming and declared the major during my first semester. 
+I came to Drake University from Olathe, KS, in fall of 2022 as an undecided major. After enrolling in an introductory computer science course, I quickly became fascinated with programming and declared the major during my first semester. 
 
 Since then, I’ve developed a passion for **data science**, particularly **predictive algorithms** and **machine learning**. The idea of using data to make informed predictions and drive decisions is incredibly motivating to me. 
 

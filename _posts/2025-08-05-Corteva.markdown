@@ -1,0 +1,37 @@
+---
+layout: posts
+title:  "Corteva Project Management Visibility Dashboards"
+date:   2025-08-05 19:36:07 +0000
+highlight_home: true
+categories: work
+tags: Internships SQL Python PowerBI API PowerAutomate
+description: My project and final presentation for my 2025 Data Analyst Internship with Corteva Agriscience.
+header:
+  overlay_image: "/assets/images/corteva2.jpeg"
+  teaser: "/assets/images/corteva.png"
+  caption: "Photo credit: [Corteva Agriscience](https://www.corteva.us/products-and-solutions/digital-solutions.html)"
+---
+> My project and final presentation for my 2025 Data Analyst Internship with Corteva Agriscience.
+
+# Project Overview
+During my internship at **Corteva Agriscience**, I designed and deployed three Power BI dashboards for different projects. I worked with the **Monday.com API** and **Databricks** (Spark, Parquet files, and Jobs) to build ETL pipelines, transform raw data, and model relationships within **Power BI**. I implemented DAX measures to calculate KPIs, documented methodologies, and automated data refreshes using **Power Automate** and **DevOps** workflows. The dashboards were published to SharePoint, providing **real-time, accessible project tracking and governance insights.**
+
+Below is the slide deck for the **final presentation** I gave of my overall project and experience:
+
+<iframe 
+  src="/assets/images/Corteva.pdf" 
+  width="100%" 
+  height="600px" 
+  style="border: none;">
+</iframe>
+
+Here is a more **detailed, technical overview** of the ETL process:
+
+<iframe 
+  src="/assets/images/Monday API Overview.pdf" 
+  width="100%" 
+  height="600px" 
+  style="border: none;">
+</iframe>
+
+### Additional work:
