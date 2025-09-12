@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://kendallstarcevich.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kendallstarcevich.github.io/" rel="alternate" type="text/html" /><updated>2025-09-08T21:38:20+00:00</updated><id>https://kendallstarcevich.github.io/feed.xml</id><title type="html">Kendall Starcevich</title><subtitle>Kendall Starcevich&apos;s portfolio website.</subtitle><entry><title type="html">Amazon Cognito Demo</title><link href="https://kendallstarcevich.github.io/work/2025/05/12/CS178P2.html" rel="alternate" type="text/html" title="Amazon Cognito Demo" /><published>2025-05-12T19:36:07+00:00</published><updated>2025-05-12T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2025/05/12/CS178P2</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2025/05/12/CS178P2.html"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://kendallstarcevich.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kendallstarcevich.github.io/" rel="alternate" type="text/html" /><updated>2025-09-12T03:17:47+00:00</updated><id>https://kendallstarcevich.github.io/feed.xml</id><title type="html">Kendall Starcevich</title><subtitle>Kendall Starcevich&apos;s portfolio website.</subtitle><entry><title type="html">Corteva Project Management Visibility Dashboards</title><link href="https://kendallstarcevich.github.io/work/2025/08/05/Corteva.html" rel="alternate" type="text/html" title="Corteva Project Management Visibility Dashboards" /><published>2025-08-05T19:36:07+00:00</published><updated>2025-08-05T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2025/08/05/Corteva</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2025/08/05/Corteva.html"><![CDATA[<blockquote>
+  <p>My project and final presentation for my 2025 Data Analyst Internship with Corteva Agriscience.</p>
+</blockquote>
+
+<h1 id="project-overview">Project Overview</h1>
+<p>During my internship at <strong>Corteva Agriscience</strong>, I designed and deployed three Power BI dashboards for different projects. I worked with the <strong>Monday.com API</strong> and <strong>Databricks</strong> (Spark, Parquet files, and Jobs) to build ETL pipelines, transform raw data, and model relationships within <strong>Power BI</strong>. I implemented DAX measures to calculate KPIs, documented methodologies, and automated data refreshes using <strong>Power Automate</strong> and <strong>DevOps</strong> workflows. The dashboards were published to SharePoint, providing <strong>real-time, accessible project tracking and governance insights.</strong></p>
+
+<p>Below is the slide deck for the <strong>final presentation</strong> I gave of my overall project and experience:</p>
+
+<iframe src="/assets/images/Corteva.pdf" width="100%" height="600px" style="border: none;">
+</iframe>
+
+<p>Here is a more <strong>detailed, technical overview</strong> of the ETL process:</p>
+
+<iframe src="/assets/images/Monday API Overview.pdf" width="100%" height="600px" style="border: none;">
+</iframe>
+
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="Internships" /><category term="SQL" /><category term="Python" /><category term="PowerBI" /><category term="API" /><category term="PowerAutomate" /><summary type="html"><![CDATA[My project and final presentation for my 2025 Data Analyst Internship with Corteva Agriscience.]]></summary></entry><entry><title type="html">Amazon Cognito Demo</title><link href="https://kendallstarcevich.github.io/work/2025/05/12/CS178P2.html" rel="alternate" type="text/html" title="Amazon Cognito Demo" /><published>2025-05-12T19:36:07+00:00</published><updated>2025-05-12T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2025/05/12/CS178P2</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2025/05/12/CS178P2.html"><![CDATA[<blockquote>
   <p>A tutorial that will walk through a step-by-step demo that creates a simple locally hosted web app with an Amazon Cognito powered login/signup.</p>
 </blockquote>
 
@@ -270,30 +287,4 @@ Commissioner and venture capitalists.</p>
 
 <p><strong><a href="https://www.linkedin.com/posts/kevin-croft-109a793_insuranceindustry-riskmanagement-talentpipeline-activity-7311144019542097922-S7ly?utm_source=social_share_send&amp;utm_medium=member_desktop_web&amp;rcm=ACoAAEZqK7IBPNuG1CNeNZN8xBFJQXNp8Zt-3Hs">Here</a> is a LinkedIn post about the experience!</strong></p>
 
-<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="Internships" /><summary type="html"><![CDATA[This is a description of my internship with DIIL.]]></summary></entry><entry><title type="html">Insure Your Future Internship Program</title><link href="https://kendallstarcevich.github.io/work/2024/05/20/InsureYourFuture.html" rel="alternate" type="text/html" title="Insure Your Future Internship Program" /><published>2024-05-20T19:36:07+00:00</published><updated>2024-05-20T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2024/05/20/InsureYourFuture</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2024/05/20/InsureYourFuture.html"><![CDATA[<blockquote>
-  <p>My experience with Iowa Economic Authority’s Insure Your Future Internship Program.</p>
-</blockquote>
-
-<h1 id="iyf-internship-program">IYF Internship Program</h1>
-
-<p><img src="/assets/images/IYF.jpeg" alt="IYF Program" /></p>
-
-<p>In addition to my Internship at Wellmark, I participated in the <a href="https://opportunityiowa.gov/business/iowa-advantage/key-industries/finance-insurance/insure-your-future-internship">Iowa Economic Authority’s Insure Your Future Internship Program</a> for first and second year college interns in different financial and insurance companies across Iowa. I describe my experience in the view below, which I <strong>received a scholarship for</strong>.</p>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;">
-  <iframe src="https://www.youtube.com/embed/AClYYkHYdGs" frameborder="0" allowfullscreen="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-  </iframe>
-</div>
-
-<p><strong>LinkedIn Posts about my scholarship from:</strong></p>
-
-<ul>
-  <li>
-    <p><a href="https://www.linkedin.com/posts/wellmark_thank-you-so-much-to-the-iowa-insurance-hall-ugcPost-7250179239117766656-wLpl?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAEZqK7IBPNuG1CNeNZN8xBFJQXNp8Zt-3Hs">Wellmark</a></p>
-  </li>
-  <li>
-    <p><a href="https://www.linkedin.com/posts/iowa-insurance-hall-of-fame_in-addition-to-recognizing-our-four-inductees-activity-7246230737945829377-okfG?utm_source=social_share_send&amp;utm_medium=member_desktop_web&amp;rcm=ACoAAEZqK7IBPNuG1CNeNZN8xBFJQXNp8Zt-3Hs">Iowa Insurance Hall of Fame</a></p>
-  </li>
-</ul>
-
-<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="Internships" /><summary type="html"><![CDATA[This is a description of my internship with Insure Your Future summer 2024.]]></summary></entry></feed>
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="Internships" /><summary type="html"><![CDATA[This is a description of my internship with DIIL.]]></summary></entry></feed>

@@ -118,4 +118,10 @@ var store = [{
         "tags": ["AWS","Development"],
         "url": "/work/2025/05/12/CS178P2.html",
         "teaser": "/assets/images/cognito.jpeg"
+      },{
+        "title": "Corteva Project Management Visibility Dashboards",
+        "excerpt":"My project and final presentation for my 2025 Data Analyst Internship with Corteva Agriscience. Project Overview During my internship at Corteva Agriscience, I designed and deployed three Power BI dashboards for different projects. I worked with the Monday.com API and Databricks (Spark, Parquet files, and Jobs) to build ETL pipelines,...","categories": ["work"],
+        "tags": ["Internships","SQL","Python","PowerBI","API","PowerAutomate"],
+        "url": "/work/2025/08/05/Corteva.html",
+        "teaser": "/assets/images/corteva.png"
       }]
