@@ -7,25 +7,25 @@ var store = [{
       },{
         "title": "OOP Quiz GUI",
         "excerpt":"My final Object Oriented Programming Java project where I created a Quiz GUI. OOP Quiz GUI GitHub Repo for this project The README in my GitHub repo above shows how to execute this program. The program allows you to create a custom “quiz” game, where you personalize your questions and...","categories": ["work"],
-        "tags": ["OOP","Java"],
+        "tags": ["Development","Java"],
         "url": "/work/2023/12/15/OOPFInalProject.html",
         "teaser": "/assets/images/OOP1.png"
       },{
         "title": "Street Sweeper World Projects",
         "excerpt":"Three AI bots that interact with similated street network enviromnment to clean streets. Project 1: Street Sweeper World I was given a reflex agent using the OSMnx Library to retreieve real map data from OpenStreetMap that can perceive its battery life, meters cleaned, and current location, as well as any...","categories": ["work"],
-        "tags": ["AI","Python"],
+        "tags": ["AI/ML","Python"],
         "url": "/work/2024/02/13/StreetSweeperWorldProjects.html",
         "teaser": "/assets/images/streetsweeper.jpg"
       },{
         "title": "Q-Learning for Gymnasium Environments",
         "excerpt":"Q-Learning Algorithm agent in Gymnasium Enviornments Project 4: Q-LEarning for Gymnasium Environments I completed a lab in class to get a Q-Learning algorithm working in the Gymnasium Frozen Lake Environment. For this project, I had to implement it in another Gymnasium environment and evaluate how well my Q-Learning agent performed...","categories": ["work"],
-        "tags": ["AI","Python"],
+        "tags": ["AI/ML","Python"],
         "url": "/work/2024/04/11/Q-LearningForGymnasiumEnvironments.html",
         "teaser": "/assets/images/taxi.jpg"
       },{
         "title": "Bootstrap Portfolio Website",
         "excerpt":"   A locally hosted Portfolio Website powered by HTML, Javascript, CSS, and Bootstrap.    Bootstrap Portfolio Project           ","categories": ["work"],
-        "tags": ["Bootstrap","Development"],
+        "tags": ["Design","Development"],
         "url": "/work/2024/04/17/portfolio.html",
         "teaser": "/assets/images/portfolio.png"
       },{
@@ -43,13 +43,13 @@ var store = [{
       },{
         "title": "Retrieval Augmented Generation Chatbot",
         "excerpt":"Improvement and customization of RAG/Semantic Search Chatbot RAG Chatbot In my Artificial Intelligence programming course, we worked through creating a chatbot using RAG and semantic search. This chatbot has an input limit of 128, which was not effective. My assignment was to implement a different model, specifically the Google Flan-t5-base,...","categories": ["work"],
-        "tags": ["AI","Python"],
+        "tags": ["AI/ML","Python"],
         "url": "/work/2024/05/09/RAGChatbot.html",
         "teaser": "/assets/images/chatbot.jpg"
       },{
         "title": "Event Calendar Software Solution",
         "excerpt":"Completed the entire software development process in a semester long effort to make a University event calendar prototype. Drake Event Calendar App Completed Need Finding, Ideation, Personas and Storyboard, Lo-Fi Prototyping and Evals, Hi-Fi Protoype and Expert Review, and a Usability Study for an Event Calendar App. Watch a 5-minute...","categories": ["work"],
-        "tags": ["Development","Figma"],
+        "tags": ["Development","Design"],
         "url": "/work/2024/05/10/HCI.html",
         "teaser": "/assets/images/app.png"
       },{
@@ -97,7 +97,7 @@ var store = [{
       },{
         "title": "Airbnb Seattle Web App (Flask + AWS)",
         "excerpt":"A full-stack Flask web application for browsing and managing Seattle Airbnb listings and reviews. Airbnb Seattle Web App Project A full-stack Flask web application for browsing and managing Seattle Airbnb listings and reviews. It integrates a MySQL database (AWS RDS) for listings/reviews and DynamoDB for user authentication. Users can sign...","categories": ["work"],
-        "tags": ["AWS","Python","Flask","Development","SQL"],
+        "tags": ["AWS","Python","Design","Development","SQL"],
         "url": "/work/2025/04/17/CS178P1.html",
         "teaser": "/assets/images/airbnbthumb.png"
       },{
@@ -109,7 +109,7 @@ var store = [{
       },{
         "title": "HIPAAi: Secure HIPAA Compliant AI Chatbot",
         "excerpt":"AI Capstone Project that creates a HIPAA Compliant AI Chatbot using Langchain. AI Capstone Secure HIPAA Compliant AI Chatbot (HIPAAi) My Capstone Group developed a secure, role-based AI chatbot tailored for the health insurance industry to theoretically ensure compliance with HIPAA regulations. The chatbot uses a custom dataset and restricts...","categories": ["work"],
-        "tags": ["AI","Python"],
+        "tags": ["AI/ML","Python"],
         "url": "/work/2025/05/08/AICap.html",
         "teaser": "/assets/images/hipaathumb.png"
       },{
@@ -121,7 +121,37 @@ var store = [{
       },{
         "title": "Corteva Project Management Visibility Dashboards",
         "excerpt":"My project and final presentation for my 2025 Data Analyst Internship with Corteva Agriscience. Project Overview During my internship at Corteva Agriscience, I designed and deployed three Power BI dashboards for different projects. I worked with the Monday.com API and Databricks (Spark, Parquet files, and Jobs) to build ETL pipelines,...","categories": ["work"],
-        "tags": ["Internships","SQL","Python","PowerBI","API","PowerAutomate"],
+        "tags": ["Internships","SQL","Python","PowerBI","API"],
         "url": "/work/2025/08/05/Corteva.html",
         "teaser": "/assets/images/corteva.png"
+      },{
+        "title": "This Portfolio Website",
+        "excerpt":"   My portfolio website hosted on Github Pages and powered by Jekyll and Minimal Mistakes.    You already found it! Template is taken from LinkedIn Learning Course, Creating Github Portfolios      Github Repo   Additional work:  ","categories": ["work"],
+        "tags": ["Development"],
+        "url": "/work/2025/09/24/this_app.html",
+        "teaser": "/assets/images/me.jpg"
+      },{
+        "title": "GLM Logistic Regression of Highly Rated Amazon Electronic Products",
+        "excerpt":"   A data-analysis project for an Amazon ‘client’ using SAS.    This presentation is a data-analysis project for a ‘client’ wanting to understand relationships between Amazon electronic product marketing features and rating. It was for my Data Mining and General Linear Models Statistics Course.      See code here!      Additional work:  ","categories": ["work"],
+        "tags": ["SAS"],
+        "url": "/work/2025/09/24/stat172.1.html",
+        "teaser": "/assets/images/amazon.png"
+      },{
+        "title": "Find Your Next...",
+        "excerpt":"A simple recommendation app that helps users decide what to watch or read next using books, movies, and genre-based matching. This is the final project for my Software Engineering Course. This Flask application utilizes three API’s and a Azure SQL Database. The exact architecture is outlined in the Github Repo...","categories": ["work"],
+        "tags": ["Python","Design","SQL","Azure","Development"],
+        "url": "/work/2025/12/03/findynext.html",
+        "teaser": "/assets/images/hp.jpg"
+      },{
+        "title": "NBA Player Stats API Python Wrapper",
+        "excerpt":"Flask-RESTful API that serves as a python wrapper This project is a simple Flask-RESTful API that serves as a wrapper for the public NBA Statistics Go API. It provides endpoints to fetch total player statistics for a given season and team, and demonstrates handling for both GET and POST requests,...","categories": ["work"],
+        "tags": ["Python","API","Development"],
+        "url": "/work/2025/12/08/nba.html",
+        "teaser": "/assets/images/nba.jpg"
+      },{
+        "title": "Analysis of Discrimination Complaint Cases in Iowa",
+        "excerpt":"models for a ‘client’ who is interested in both understanding the relationships in the data and being able to predict future observations This is the final project for my Data Mining and General Linear Models Statistics Course. We were tasked to use R to make A prediction tool that can...","categories": ["work"],
+        "tags": ["R","AI/ML"],
+        "url": "/work/2025/12/08/stat172.2.html",
+        "teaser": "/assets/images/court.jpg"
       }]

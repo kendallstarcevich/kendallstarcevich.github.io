@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://kendallstarcevich.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kendallstarcevich.github.io/" rel="alternate" type="text/html" /><updated>2025-09-12T03:17:47+00:00</updated><id>https://kendallstarcevich.github.io/feed.xml</id><title type="html">Kendall Starcevich</title><subtitle>Kendall Starcevich&apos;s portfolio website.</subtitle><entry><title type="html">Corteva Project Management Visibility Dashboards</title><link href="https://kendallstarcevich.github.io/work/2025/08/05/Corteva.html" rel="alternate" type="text/html" title="Corteva Project Management Visibility Dashboards" /><published>2025-08-05T19:36:07+00:00</published><updated>2025-08-05T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2025/08/05/Corteva</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2025/08/05/Corteva.html"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://kendallstarcevich.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kendallstarcevich.github.io/" rel="alternate" type="text/html" /><updated>2025-12-29T01:00:07+00:00</updated><id>https://kendallstarcevich.github.io/feed.xml</id><title type="html">Kendall Starcevich</title><subtitle>Kendall Starcevich&apos;s portfolio website.</subtitle><entry><title type="html">NBA Player Stats API Python Wrapper</title><link href="https://kendallstarcevich.github.io/work/2025/12/08/nba.html" rel="alternate" type="text/html" title="NBA Player Stats API Python Wrapper" /><published>2025-12-08T19:36:07+00:00</published><updated>2025-12-08T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2025/12/08/nba</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2025/12/08/nba.html"><![CDATA[<blockquote>
+  <p>Flask-RESTful API that serves as a python wrapper</p>
+</blockquote>
+
+<p>This project is a simple Flask-RESTful API that serves as a wrapper for the public <a href="https://documenter.getpostman.com/view/25652688/2sB34Zs4xZ">NBA Statistics Go</a> API. It provides endpoints to fetch total player statistics for a given season and team, and demonstrates handling for both GET and POST requests, input validation, and custom error messages.</p>
+
+<p>It was an assignment for my <strong>Software Engineering</strong> Course.</p>
+
+<ul>
+  <li><a href="https://github.com/kendallstarcevich/CS188-Assignment-3?tab=readme-ov-file">Github Repo</a></li>
+</ul>
+
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="Python" /><category term="API" /><category term="Development" /><summary type="html"><![CDATA[Flask-RESTful API that serves as a python wrapper]]></summary></entry><entry><title type="html">Analysis of Discrimination Complaint Cases in Iowa</title><link href="https://kendallstarcevich.github.io/work/2025/12/08/stat172.2.html" rel="alternate" type="text/html" title="Analysis of Discrimination Complaint Cases in Iowa" /><published>2025-12-08T19:36:07+00:00</published><updated>2025-12-08T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2025/12/08/stat172.2</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2025/12/08/stat172.2.html"><![CDATA[<blockquote>
+  <p>models for a ‘client’ who is interested in both understanding the relationships in the data and being able to predict future observations</p>
+</blockquote>
+
+<p><strong>This is the final project for my Data Mining and General Linear Models Statistics Course.</strong> We were tasked to use <strong>R</strong> to make</p>
+
+<ol>
+  <li>A prediction tool that can be used to predict a 2-level (equivalently, binary) categorical outcome on
+new data</li>
+  <li>A parsimonious GLM that can be used to help understand important relationships between the
+explanatory variables and your Y variable.</li>
+  <li>Stupendous, meaningful data visualizations that strengthen findings of predictive and descriptive models.</li>
+</ol>
+
+<p>with the final models to be put into <strong>automated production to aid in both forecasting and understanding.</strong></p>
+
+<ul>
+  <li><a href="https://github.com/orgilemu/Stat_172_Final_Project">Github Repo</a></li>
+</ul>
+
+<iframe src="/assets/images/DiscriminationPrediction.pdf" width="100%" height="600px" style="border: none;">
+</iframe>
+
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="R" /><category term="AI/ML" /><summary type="html"><![CDATA[models for a 'client' who is interested in both understanding the relationships in the data and being able to predict future observations]]></summary></entry><entry><title type="html">Find Your Next…</title><link href="https://kendallstarcevich.github.io/work/2025/12/03/findynext.html" rel="alternate" type="text/html" title="Find Your Next…" /><published>2025-12-03T19:36:07+00:00</published><updated>2025-12-03T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2025/12/03/findynext</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2025/12/03/findynext.html"><![CDATA[<blockquote>
+  <p>A simple recommendation app that helps users decide what to watch or read next using books, movies, and genre-based matching.</p>
+</blockquote>
+
+<p><strong>This is the final project for my Software Engineering Course</strong>. This Flask application utilizes three API’s and a Azure SQL Database. The exact architecture is outlined in the <a href="https://github.com/orgilemu/Stat_172_Final_Project">Github Repo</a> and <strong>project outline</strong> below the app photos.</p>
+
+<p><img src="/assets/images/fyn1.png" alt="" /></p>
+
+<p><img src="/assets/images/fyn2.png" alt="" /></p>
+
+<p><img src="/assets/images/fyn3.png" alt="" /></p>
+
+<iframe src="/assets/images/CS 188_ Project Writeup.pdf" width="100%" height="600px" style="border: none;">
+</iframe>
+
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="Python" /><category term="Design" /><category term="SQL" /><category term="Azure" /><category term="Development" /><summary type="html"><![CDATA[A simple recommendation app that helps users decide what to watch or read next using books, movies, and genre-based matching.]]></summary></entry><entry><title type="html">This Portfolio Website</title><link href="https://kendallstarcevich.github.io/work/2025/09/24/this_app.html" rel="alternate" type="text/html" title="This Portfolio Website" /><published>2025-09-24T19:36:07+00:00</published><updated>2025-09-24T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2025/09/24/this_app</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2025/09/24/this_app.html"><![CDATA[<blockquote>
+  <p>My portfolio website hosted on Github Pages and powered by Jekyll and Minimal Mistakes.</p>
+</blockquote>
+
+<p>You already found it! Template is taken from <a href="https://www.linkedin.com/learning/creating-github-portfolios">LinkedIn Learning Course, Creating Github Portfolios</a></p>
+
+<ul>
+  <li><a href="https://github.com/kendallstarcevich/kendallstarcevich.github.io?tab=readme-ov-file">Github Repo</a></li>
+</ul>
+
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="Development" /><summary type="html"><![CDATA[My portfolio website hosted on Github Pages and powered by Jekyll and Minimal Mistakes.]]></summary></entry><entry><title type="html">GLM Logistic Regression of Highly Rated Amazon Electronic Products</title><link href="https://kendallstarcevich.github.io/work/2025/09/24/stat172.1.html" rel="alternate" type="text/html" title="GLM Logistic Regression of Highly Rated Amazon Electronic Products" /><published>2025-09-24T19:36:07+00:00</published><updated>2025-09-24T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2025/09/24/stat172.1</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2025/09/24/stat172.1.html"><![CDATA[<blockquote>
+  <p>A data-analysis project for an Amazon ‘client’ using SAS.</p>
+</blockquote>
+
+<p>This presentation is a data-analysis project for a ‘client’ wanting to <strong>understand relationships between Amazon electronic product marketing features and rating.</strong> It was for my Data Mining and General Linear Models Statistics Course.</p>
+
+<ul>
+  <li><a href="https://hackmd.io/@IZ4dLAWgT-OlUrBGFei8ug/amazonproject/edit">See code here!</a></li>
+</ul>
+
+<iframe src="/assets/images/AMAZON.pdf" width="100%" height="600px" style="border: none;">
+</iframe>
+
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="SAS" /><summary type="html"><![CDATA[A data-analysis project for a 'client' wanting to understand relationships between Amazon electronic product marketing features and rating.]]></summary></entry><entry><title type="html">Corteva Project Management Visibility Dashboards</title><link href="https://kendallstarcevich.github.io/work/2025/08/05/Corteva.html" rel="alternate" type="text/html" title="Corteva Project Management Visibility Dashboards" /><published>2025-08-05T19:36:07+00:00</published><updated>2025-08-05T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2025/08/05/Corteva</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2025/08/05/Corteva.html"><![CDATA[<blockquote>
   <p>My project and final presentation for my 2025 Data Analyst Internship with Corteva Agriscience.</p>
 </blockquote>
 
@@ -15,7 +88,7 @@
 <iframe src="/assets/images/Monday API Overview.pdf" width="100%" height="600px" style="border: none;">
 </iframe>
 
-<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="Internships" /><category term="SQL" /><category term="Python" /><category term="PowerBI" /><category term="API" /><category term="PowerAutomate" /><summary type="html"><![CDATA[My project and final presentation for my 2025 Data Analyst Internship with Corteva Agriscience.]]></summary></entry><entry><title type="html">Amazon Cognito Demo</title><link href="https://kendallstarcevich.github.io/work/2025/05/12/CS178P2.html" rel="alternate" type="text/html" title="Amazon Cognito Demo" /><published>2025-05-12T19:36:07+00:00</published><updated>2025-05-12T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2025/05/12/CS178P2</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2025/05/12/CS178P2.html"><![CDATA[<blockquote>
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="Internships" /><category term="SQL" /><category term="Python" /><category term="PowerBI" /><category term="API" /><summary type="html"><![CDATA[My project and final presentation for my 2025 Data Analyst Internship with Corteva Agriscience.]]></summary></entry><entry><title type="html">Amazon Cognito Demo</title><link href="https://kendallstarcevich.github.io/work/2025/05/12/CS178P2.html" rel="alternate" type="text/html" title="Amazon Cognito Demo" /><published>2025-05-12T19:36:07+00:00</published><updated>2025-05-12T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2025/05/12/CS178P2</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2025/05/12/CS178P2.html"><![CDATA[<blockquote>
   <p>A tutorial that will walk through a step-by-step demo that creates a simple locally hosted web app with an Amazon Cognito powered login/signup.</p>
 </blockquote>
 
@@ -51,7 +124,7 @@
 
 <p>You can also download the training dataset <a href="/assets/images/mergedinfo.pdf" download=""><strong>here</strong></a>.</p>
 
-<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="AI" /><category term="Python" /><summary type="html"><![CDATA[AI Capstone Project that creates a HIPAA Compliant AI Chatbot using Langchain.]]></summary></entry><entry><title type="html">KMEANS Consulting for Wellabe (DIIL)</title><link href="https://kendallstarcevich.github.io/work/2025/04/24/Wellabe.html" rel="alternate" type="text/html" title="KMEANS Consulting for Wellabe (DIIL)" /><published>2025-04-24T19:36:07+00:00</published><updated>2025-04-24T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2025/04/24/Wellabe</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2025/04/24/Wellabe.html"><![CDATA[<blockquote>
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="AI/ML" /><category term="Python" /><summary type="html"><![CDATA[AI Capstone Project that creates a HIPAA Compliant AI Chatbot using Langchain.]]></summary></entry><entry><title type="html">KMEANS Consulting for Wellabe (DIIL)</title><link href="https://kendallstarcevich.github.io/work/2025/04/24/Wellabe.html" rel="alternate" type="text/html" title="KMEANS Consulting for Wellabe (DIIL)" /><published>2025-04-24T19:36:07+00:00</published><updated>2025-04-24T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2025/04/24/Wellabe</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2025/04/24/Wellabe.html"><![CDATA[<blockquote>
   <p>A project using k-means clustering to segment Wellabe customers.</p>
 </blockquote>
 
@@ -84,207 +157,4 @@
   </iframe>
 </div>
 
-<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="AWS" /><category term="Python" /><category term="Flask" /><category term="Development" /><category term="SQL" /><summary type="html"><![CDATA[A full-stack Flask web application for browsing and managing Seattle Airbnb listings and reviews.]]></summary></entry><entry><title type="html">Fine-Grained Visual Categorization (FGVC) of Bird Species</title><link href="https://kendallstarcevich.github.io/work/2024/12/10/CS167P2.html" rel="alternate" type="text/html" title="Fine-Grained Visual Categorization (FGVC) of Bird Species" /><published>2024-12-10T19:36:07+00:00</published><updated>2024-12-10T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2024/12/10/CS167P2</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2024/12/10/CS167P2.html"><![CDATA[<blockquote>
-  <p>Comparison of convolutional neural network (CNN) models’ abilities to accurately classify bird species</p>
-</blockquote>
-
-<h1 id="fine-grained-visual-categorization-fgvc-of-bird-species">Fine-Grained Visual Categorization (FGVC) of Bird Species</h1>
-
-<p>In this deep learning project, I developed and evaluated convolutional neural network (CNN) models to accurately classify bird species from images using the Bird Species Dataset, which includes 25 different categories.</p>
-
-<p>I implemented and compared three powerful CNN architectures:</p>
-
-<ol>
-  <li><strong>AlexNet</strong></li>
-  <li><strong>VGGNet</strong></li>
-  <li><strong>ResNet</strong></li>
-</ol>
-
-<p>with various optimizers (Adam, SGD, RMSprop) to determine which combination yielded the highest classification accuracy. All models were trained using <strong>PyTorch</strong>, with standard preprocessing (resizing, tensor conversion, and ImageNet normalization), and evaluated using accuracy, confusion matrices, and average loss curves to track performance and learning progress.</p>
-
-<p><strong>Key techniques used include:</strong></p>
-
-<ul>
-  <li>
-    <p>Transfer learning and model fine-tuning</p>
-  </li>
-  <li>
-    <p>Data batching and shuffling using DataLoader</p>
-  </li>
-  <li>
-    <p>Model evaluation with cross-entropy loss and visual diagnostics</p>
-  </li>
-  <li>
-    <p>Hyperparameter tuning (learning rate, batch size, epochs)</p>
-  </li>
-</ul>
-
-<p><strong>The <a href="https://colab.research.google.com/drive/1eI6C4KDDTpx-EyrL9ggbJvpgYM98On0a?usp=sharing">Complete Project Colab Link</a> includes the code, training visualizations, model comparisons, and detailed conclusions about model behavior and optimizer effects.</strong></p>
-
-<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="Python" /><category term="ML" /><summary type="html"><![CDATA[Comparison of convolutional neural network (CNN) models' abilities to accurately classify bird species]]></summary></entry><entry><title type="html">MIPS CPU Design Project</title><link href="https://kendallstarcevich.github.io/work/2024/11/05/CPU.html" rel="alternate" type="text/html" title="MIPS CPU Design Project" /><published>2024-11-05T19:36:07+00:00</published><updated>2024-11-05T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2024/11/05/CPU</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2024/11/05/CPU.html"><![CDATA[<blockquote>
-  <p>A MIPS CPU in Logisim to support a wider range of instructions, including arithmetic, logical, and set-on-less-than operations</p>
-</blockquote>
-
-<h1 id="computer-organization-project-mips-cpu-design-project">Computer Organization Project: MIPS CPU Design Project</h1>
-
-<p>For this project, I extended a partial MIPS CPU in Logisim to support a wider range of instructions, including arithmetic, logical, and set-on-less-than operations (add, addi, sub, and, or, xor, andi, ori, xori, slt, slti). I wrote a custom MIPS program in MARS, manually loaded its machine code into the instruction memory, and verified correct execution using simulated register outputs.
-Deliverables include screenshots of the MIPS program, control unit truth table, circuit diagrams, and register outputs—with a written explanation confirming the correctness of computed values.</p>
-
-<h2 id="registercontents-explanation">RegisterContents Explanation:</h2>
-
-<p>The value ‘3’ is correct in Register $13 because it is the final result of every line before. Here are the comments that I put in my code that explain each line:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Store 10 in $2
-
-# Store 5 in $3
-
-# 10 or 5 = 15 in $4
-
-# 15 or 0 = 15 in $5
-
-# 10 xor 5 = 15 in $6
-
-# 5 xor 2 = 7 in $7
-
-# 15 and 7 = 7 in $8
-
-# 7 and 3 = 3 in $9
-
-# 3 &lt; 7 = 1 in $10
-
-# 1 &lt; 1 = 0 in $11
-
-# 7 + 0 = 7 in $12
-
-# 10 - 7 = 3 FINAL ANSWER in $13
-</code></pre></div></div>
-<h2 id="logisim-cpu-diagram">Logisim CPU Diagram:</h2>
-<p><img src="/assets/images/CPU.png" alt="CPU" /></p>
-
-<h2 id="components-and-control-logic">Components and Control Logic:</h2>
-<p><strong>Control Circut</strong>:</p>
-
-<p><img src="/assets/images/controlcircuit.png" alt="Control Circuit" />
-<strong>Control Unit Truth Table</strong>:</p>
-
-<p><img src="/assets/images/truthtable.png" alt="Control Unit Truth Table" /></p>
-
-<h2 id="program-execution">Program Execution:</h2>
-<p><strong>MIPS Test Segment (MARS)</strong>:</p>
-
-<p><img src="/assets/images/testsegment.png" alt="MIPS Test Segment" /></p>
-
-<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="MIPS" /><summary type="html"><![CDATA[A MIPS CPU in Logisim to support a wider range of instructions, including arithmetic, logical, and set-on-less-than operations]]></summary></entry><entry><title type="html">Graduate Admission Prediction Project</title><link href="https://kendallstarcevich.github.io/work/2024/11/04/CS167P1.html" rel="alternate" type="text/html" title="Graduate Admission Prediction Project" /><published>2024-11-04T19:36:07+00:00</published><updated>2024-11-04T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2024/11/04/CS167P1</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2024/11/04/CS167P1.html"><![CDATA[<blockquote>
-  <p>A Machine Learning project consisting of kNN, Decision Tree, and Random Forest models that predict the chance of graduate college admission.</p>
-</blockquote>
-
-<h1 id="graduate-admission-prediction-project">Graduate Admission Prediction Project</h1>
-
-<p>This project analyzes a Kaggle dataset containing 400 university admission profiles, featuring GRE scores, TOEFL scores, university ratings, statement of purpose (SOP) and recommendation letter (LOR) strengths, undergraduate GPA, research experience, and the chance of admission.</p>
-
-<p>The goal was to <strong>build regression models that predict the chance of admission based on the other features</strong>. This type of predictive tool could be valuable for prospective graduate students to estimate their admission likelihood before investing time and money into applications.</p>
-
-<p><strong>I implemented and compared several regression algorithms including:</strong></p>
-
-<ul>
-  <li>
-    <p>k-Nearest Neighbors (kNN), both weighted and unweighted,</p>
-  </li>
-  <li>
-    <p>Decision Tree,</p>
-  </li>
-  <li>
-    <p>Random Forest.</p>
-  </li>
-</ul>
-
-<p><strong>The <a href="https://colab.research.google.com/drive/1y85FcBFOrVI8ds3xRVl4tKKSombP5dHx?usp=sharing">Complete Project Colab Link</a> includes:</strong></p>
-
-<ul>
-  <li>
-    <p>Data preprocessing and normalization code,</p>
-  </li>
-  <li>
-    <p>Model training, tuning, and evaluation scripts,</p>
-  </li>
-  <li>
-    <p>Test results with MAE scores,</p>
-  </li>
-  <li>
-    <p>Visualizations such as feature importance plots,</p>
-  </li>
-  <li>
-    <p>Detailed comments explaining each step.</p>
-  </li>
-</ul>
-
-<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="Python" /><category term="ML" /><summary type="html"><![CDATA[A Machine Learning project consisting of kNN, Decision Tree, and Random Forest models that predict the chance of graduate college admission based on admission.]]></summary></entry><entry><title type="html">32-bit ALU in Logism</title><link href="https://kendallstarcevich.github.io/work/2024/10/17/32-bitALU.html" rel="alternate" type="text/html" title="32-bit ALU in Logism" /><published>2024-10-17T19:36:07+00:00</published><updated>2024-10-17T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2024/10/17/32-bitALU</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2024/10/17/32-bitALU.html"><![CDATA[<blockquote>
-  <p>A 32-bit ALU built in Logism that allows for adding, subtracting, and, or, not, xor, and slt operations. Tests Included.</p>
-</blockquote>
-
-<h1 id="computer-organization-project-32-bit-alu-design">Computer Organization Project: 32-bit ALU Design</h1>
-
-<p>This project was part of a course focused on computer organization and architecture, covering internal data representation, assembly language, memory addressing, and digital circuit design.</p>
-
-<p><strong>I designed a 32-bit Arithmetic Logic Unit (ALU)</strong> in Logisim capable of performing several core operations:
-add, sub, and, or, not, xor, and slt.</p>
-
-<p><strong>Key features include:</strong></p>
-
-<ul>
-  <li>
-    <p>Efficient reuse of a single adder for both addition and subtraction</p>
-  </li>
-  <li>
-    <p>SLT (set-on-less-than) logic built on top of the adder circuit</p>
-  </li>
-  <li>
-    <p>A custom test vector system with descriptive comments for validation</p>
-  </li>
-</ul>
-
-<p>Deliverables include circuit diagrams of the ALU and components, a well-documented test vector, and test result screenshots confirming correct functionality.</p>
-
-<h2 id="core-components">Core Components:</h2>
-
-<p><strong>Complete 32-bit Adder/Subtractor</strong>:</p>
-
-<p><img src="/assets/images/addsub.png" alt="Complete 32-bit Adder/Subtractor" />
-<strong>Full Adder</strong>:</p>
-
-<p><img src="/assets/images/fulladder.png" alt="Full Adder" />
-<strong>Full ALU Design</strong>:</p>
-
-<p><img src="/assets/images/ALU.png" alt="ALU" /></p>
-
-<h2 id="testing-and-verification">Testing and Verification:</h2>
-
-<p><strong>Custom Test Vector:</strong></p>
-
-<p><img src="/assets/images/testvector.png" alt="Test Vector" />
-<strong>Result of Test Vector:</strong></p>
-
-<p><img src="/assets/images/testresult.png" alt="Result of Test Vector" /></p>
-
-<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="MIPS" /><summary type="html"><![CDATA[A 32-bit ALU built in Logism that allows for adding, subtracting, and, or, not, xor, and slt operations. Tests Included.]]></summary></entry><entry><title type="html">Drake Insurance Innovation Lab Internship</title><link href="https://kendallstarcevich.github.io/work/2024/09/05/DIIL.html" rel="alternate" type="text/html" title="Drake Insurance Innovation Lab Internship" /><published>2024-09-05T19:36:07+00:00</published><updated>2024-09-05T19:36:07+00:00</updated><id>https://kendallstarcevich.github.io/work/2024/09/05/DIIL</id><content type="html" xml:base="https://kendallstarcevich.github.io/work/2024/09/05/DIIL.html"><![CDATA[<blockquote>
-  <p>My experience with Drake Insurance Innovation Lab Internship.</p>
-</blockquote>
-
-<h1 id="drake-insurance-innovation-lab-internship">Drake Insurance Innovation Lab Internship</h1>
-
-<h4 id="i-am-an-intern-at-the-kelley-center-for-insurance-innovation-in-the-innovation-lab">I am an intern at the <a href="https://www.drake.edu/actsci/emc/">Kelley Center for Insurance Innovation</a> in the Innovation Lab.</h4>
-
-<p>• As the group’s <strong>Data Scientist</strong>, set to develop strategic solutions for <a href="/work/2025/04/24/Wellabe.html">Wellabe’s new
-rewards program launch</a>, delivering recommendations to senior executives.</p>
-
-<p>• Scheduled for discussions with leaders from Global Insurance Accelerator and
-BrokerTech Ventures on mentorship and accelerator processes.</p>
-
-<p>• Will attend regulatory and investment strategy seminars with Iowa Insurance
-Commissioner and venture capitalists.</p>
-
-<p>• Preparing to analyze innovation practices with ten carriers and brokers in the next coming year.</p>
-
-<p><strong><a href="https://www.linkedin.com/posts/kevin-croft-109a793_insuranceindustry-riskmanagement-talentpipeline-activity-7311144019542097922-S7ly?utm_source=social_share_send&amp;utm_medium=member_desktop_web&amp;rcm=ACoAAEZqK7IBPNuG1CNeNZN8xBFJQXNp8Zt-3Hs">Here</a> is a LinkedIn post about the experience!</strong></p>
-
-<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="Internships" /><summary type="html"><![CDATA[This is a description of my internship with DIIL.]]></summary></entry></feed>
+<h3 id="additional-work">Additional work:</h3>]]></content><author><name></name></author><category term="work" /><category term="AWS" /><category term="Python" /><category term="Design" /><category term="Development" /><category term="SQL" /><summary type="html"><![CDATA[A full-stack Flask web application for browsing and managing Seattle Airbnb listings and reviews.]]></summary></entry></feed>
