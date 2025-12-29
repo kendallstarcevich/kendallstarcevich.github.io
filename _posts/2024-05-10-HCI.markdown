@@ -3,7 +3,7 @@ layout: posts
 title:  "Event Calendar Software Solution"
 date:   2024-05-10 19:36:07 +0000
 categories: work
-tags: Development Figma
+tags: Development Design
 description: Completed the entire software development process in a semester long effort to make a University event calendar prototype.
 header:
   overlay_image: "/assets/images/background3.jpg"

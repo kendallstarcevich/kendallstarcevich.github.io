@@ -14,13 +14,11 @@ author_profile: true
 </div>
 
 
-I came to Drake University from Olathe, KS, in fall of 2022 as an undecided major. After enrolling in an introductory computer science course, I quickly became fascinated with programming and declared the major during my first semester. 
+I came to Drake University from Olathe, KS, in fall of 2022 as an undecided major and member of the Women's Soccer Team. After enrolling in an introductory computer science course, I quickly became fascinated with programming and declared the major during my first semester. 
 
 Since then, I’ve developed a passion for **data science**, particularly **predictive algorithms** and **machine learning**. The idea of using data to make informed predictions and drive decisions is incredibly motivating to me. 
 
-I enjoy the challenge of figuring things out when there isn’t a clear solution — the process of **research**, **troubleshooting**, and **trial and error** is one of the most rewarding parts of the work.  
-
-**I am currently a Data Science Intern at Wellabe** for the 2025-2026 school year!
+**I am currently a Data Science Intern at Wellabe** for the 2025-2026 school year! I am going full-time with them when I graduate in May, and am **currently applying for online MS in Data Science programs** for fall of 2026. 
 
 ## <a id="skills">My Skills</a>
 
@@ -36,6 +34,8 @@ This experience has sharpened my abilities in **multitasking**, **time managemen
 
 ## <a id="courses">Relevant Courses</a>
 ***Hover over the course name to view its description***
+
+\**Denotes courses I am currently enrolled in*
 
 <div class="toc">
   <a href="#cs">Computer Science</a>
@@ -65,7 +65,7 @@ This experience has sharpened my abilities in **multitasking**, **time managemen
 
 - <span class="tooltip" data-tooltip="The purpose of a capstone is for students to undertake an independent project that applies and synthesizes what they have learned in their major. This course is typically taken in one of the student's final two semesters at Drake. One outcome will be a written project that can take several forms, for example a research paper, a software package, or lesson plans. A second outcome is a presentation of their work to the students and faculty of the department, usually during the last two weeks of the semester.">Computer Science Capstone\*</span>
 
-- <span class="tooltip" data-tooltip="This course provides an in-depth study of the design and development of software. The life cycle of software, various development strategies, requirements analysis, design tools, and testing methodologies will be covered. These concepts will be explored in theory as well as in practice; students will gain experience in conceiving, specifying, designing, developing and implementing a reasonably sized software solution alongside a team of students from computer science.">Software Engineering\*</span>
+- <span class="tooltip" data-tooltip="This course provides an in-depth study of the design and development of software. The life cycle of software, various development strategies, requirements analysis, design tools, and testing methodologies will be covered. These concepts will be explored in theory as well as in practice; students will gain experience in conceiving, specifying, designing, developing and implementing a reasonably sized software solution alongside a team of students from computer science.">Software Engineering</span>
 
 <a href="#page-title" class="back-to-top">Back to Top ↑</a>
 
@@ -85,7 +85,7 @@ This experience has sharpened my abilities in **multitasking**, **time managemen
 - <span class="tooltip" data-tooltip="Regression and time analysis. Specific topics include simple and multiple regressional multicollinearity; heteroscedasticity; diagnostics; forecasting with the regression model; binary and multiple-choice models; autocorrelation; random walks; ARIMA models; minimum mean-square-error forecasts and confidence intervals." >Regression and Time Series</span>
 
 
-- <span class="tooltip" data-tooltip="The emphasis will be on data analysis, statistical assumptions, and diagnostics. Topics include: Linear Regression, Logistic and Probit Regression, CART, Neural Networks, Association Rules, Clustering, Generalized Linear Models, Models for Continuous Data, Models for Binary Data, Models for Polytomous data, Log-Linear Models, Conditional Likelihoods, and Gamma Regression.">Data Mining and Generalized Linear Modeling\*</span>
+- <span class="tooltip" data-tooltip="The emphasis will be on data analysis, statistical assumptions, and diagnostics. Topics include: Linear Regression, Logistic and Probit Regression, CART, Neural Networks, Association Rules, Clustering, Generalized Linear Models, Models for Continuous Data, Models for Binary Data, Models for Polytomous data, Log-Linear Models, Conditional Likelihoods, and Gamma Regression.">Data Mining and Generalized Linear Modeling</span>
 
 
 
@@ -101,7 +101,8 @@ This experience has sharpened my abilities in **multitasking**, **time managemen
 
 #### <a id="math">Math</a>
 - Calculus I/II/III
-- Linear Algebra
+- <span class="tooltip" data-tooltip="Systems of linear equations; vectors, linear independence, linear transformations; matrix operations, inverse of a matrix, determinants; null and column space of a matrix, rank; general vector spaces, basis of a vector space, dimension; eigenvalues and eigenvectors, diagonalization, orthogonality; applications.">Linear Algebra\*</span>
+
 - <span class="tooltip" data-tooltip="Number systems, algorithms, sets, logic, Boolean algebra, functions, combinatorics, probability, graph theory.">Discrete Mathematics</span>
 
 #### <a id="hum">Computer Humanities</a>
@@ -118,12 +119,10 @@ This experience has sharpened my abilities in **multitasking**, **time managemen
 
 - <span class="tooltip" data-tooltip="This course examines our past and present cultural beliefs and anxieties about artificial intelligences, looking at popular works that have spoken to audiences’ fears of, and hopes for, intelligent machines that interact with humans and participate in human life. From calculating murderers (eg: HAL 9000) to protective companions (eg: Baymax), how have we viewed these artificial persons, and what have imagined becomes of natural, biological humans who live lives integrated with AI?">AI in Fiction</span>
 
-- <span class="tooltip" data-tooltip="This course provides an overview of ethical and legal issues associated with business information technology usage, data collection, data sharing, and data-driven decision making. Topics include ethical and legal perspectives on privacy and information rights, organizational computer usage policies, cybercrime, and intellectual property.">IT Legal and Ethical Issues\*</span>
+- <span class="tooltip" data-tooltip="This course provides an overview of ethical and legal issues associated with business information technology usage, data collection, data sharing, and data-driven decision making. Topics include ethical and legal perspectives on privacy and information rights, organizational computer usage policies, cybercrime, and intellectual property.">IT Legal and Ethical Issues</span>
 
 
-- <span class="tooltip" data-tooltip="An introduction to philosophy of language, linguistics, and semiotics focused on the issue of linguistic relativism, i.e., whether languages are significantly different, and if so, whether they shape significantly different views of reality. Examines evidence both in support of and against linguistic relativism, and then uses this evidence as a means of addressing the relationship between language and reality.">Language and Reality\*</span>
-
-\* *Courses will be taken prior to Graduation*
+- <span class="tooltip" data-tooltip="An introduction to philosophy of language, linguistics, and semiotics focused on the issue of linguistic relativism, i.e., whether languages are significantly different, and if so, whether they shape significantly different views of reality. Examines evidence both in support of and against linguistic relativism, and then uses this evidence as a means of addressing the relationship between language and reality.">Language and Reality</span>
 
 <a href="#page-title" class="back-to-top">Back to Top ↑</a>
 

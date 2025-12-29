@@ -1,0 +1,22 @@
+---
+layout: posts
+title:  "NBA Player Stats API Python Wrapper"
+date:   2025-12-08 19:36:07 +0000
+categories: work
+tags: Python API Development
+description: Flask-RESTful API that serves as a python wrapper
+header:
+  overlay_image: "/assets/images/nba2.png"
+  teaser: "/assets/images/nba.jpg"
+  caption: "Photo credit: [4k Wallpapers](https://4kwallpapers.com/)"
+---
+> Flask-RESTful API that serves as a python wrapper
+
+This project is a simple Flask-RESTful API that serves as a wrapper for the public [NBA Statistics Go](https://documenter.getpostman.com/view/25652688/2sB34Zs4xZ) API. It provides endpoints to fetch total player statistics for a given season and team, and demonstrates handling for both GET and POST requests, input validation, and custom error messages.
+
+It was an assignment for my **Software Engineering** Course.
+
+- [Github Repo](https://github.com/kendallstarcevich/CS188-Assignment-3?tab=readme-ov-file)
+
+
+### Additional work:

@@ -3,7 +3,7 @@ layout: posts
 title:  "Bootstrap Portfolio Website"
 date:   2024-04-17 19:36:07 +0000
 categories: work
-tags: Bootstrap Development
+tags: Design Development
 description: This is a locally hosted Portfolio Website powered by HTML, Javascript, CSS, and Bootstrap.
 header:
   overlay_image: "/assets/images/bootstrap.png"

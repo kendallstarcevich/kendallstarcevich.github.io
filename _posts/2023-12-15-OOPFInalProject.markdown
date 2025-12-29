@@ -3,7 +3,7 @@ layout: posts
 title:  "OOP Quiz GUI"
 date:   2023-12-15 19:36:07 +0000
 categories: work
-tags: OOP Java
+tags: Development Java
 description: This is a description of my final OOP project.
 header:
   overlay_image: "/assets/images/background4.jpg"

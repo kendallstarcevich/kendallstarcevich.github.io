@@ -9,7 +9,7 @@ technical:
     level: Intermediate
   - title: Git / GitHub
     level: Intermediate
-  - title: AWS
+  - title: AWS / Azure
     level: Intermediate
   - title: R
     level: Intermediate
@@ -17,7 +17,7 @@ technical:
     level: Intermediate
 
   - title: SAS
-    level: Beginner
+    level: Intermediate
   - title: JavaScript
     level: Beginner
   - title: MIPS
@@ -25,11 +25,9 @@ technical:
   - title: C
     level: Beginner
   - title: Power BI
-    level: Beginner
+    level: Intermediate
   - title: Flask (Web Dev)
-    level: Beginner
+    level: Intermediate
   - title: Java
-    level: Beginner
-  - title: Bash
     level: Beginner
 

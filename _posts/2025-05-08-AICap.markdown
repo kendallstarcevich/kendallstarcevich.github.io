@@ -4,7 +4,7 @@ title:  "HIPAAi: Secure HIPAA Compliant AI Chatbot"
 date:   2025-05-08 19:36:07 +0000
 highlight_home: true
 categories: work
-tags: AI Python
+tags: AI/ML Python
 description: AI Capstone Project that creates a HIPAA Compliant AI Chatbot using Langchain.
 header:
   overlay_image: "/assets/images/hipaa.png"

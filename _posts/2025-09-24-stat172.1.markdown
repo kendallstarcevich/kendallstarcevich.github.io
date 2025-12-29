@@ -1,0 +1,27 @@
+---
+layout: posts
+title:  "GLM Logistic Regression of Highly Rated Amazon Electronic Products"
+date:   2025-09-24 19:36:07 +0000
+highlight_home: true
+categories: work
+tags: SAS
+description: A data-analysis project for a 'client' wanting to understand relationships between Amazon electronic product marketing features and rating.
+header:
+  overlay_image: "/assets/images/amazon2.jpg"
+  teaser: "/assets/images/amazon.png"
+  caption: "Photo credit: [Amazon](https://www.amazon.com/)"
+---
+> A data-analysis project for an Amazon 'client' using SAS.
+
+This presentation is a data-analysis project for a 'client' wanting to **understand relationships between Amazon electronic product marketing features and rating.** It was for my Data Mining and General Linear Models Statistics Course.
+
+- [See code here!](https://hackmd.io/@IZ4dLAWgT-OlUrBGFei8ug/amazonproject/edit)
+
+<iframe 
+  src="/assets/images/AMAZON.pdf" 
+  width="100%" 
+  height="600px" 
+  style="border: none;">
+</iframe>
+
+### Additional work:

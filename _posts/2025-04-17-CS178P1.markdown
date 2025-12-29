@@ -4,7 +4,7 @@ title:  "Airbnb Seattle Web App (Flask + AWS)"
 date:   2025-04-17 19:36:07 +0000
 highlight_home: true
 categories: work
-tags: AWS Python Flask Development SQL
+tags: AWS Python Design Development SQL
 description: A full-stack Flask web application for browsing and managing Seattle Airbnb listings and reviews.
 header:
   overlay_image: "/assets/images/airbnb.jpg"

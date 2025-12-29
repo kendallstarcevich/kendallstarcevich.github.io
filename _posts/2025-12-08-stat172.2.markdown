@@ -1,0 +1,35 @@
+---
+layout: posts
+title:  "Analysis of Discrimination Complaint Cases in Iowa"
+date:   2025-12-08 19:36:07 +0000
+highlight_home: true
+categories: work
+tags: R AI/ML
+description: models for a 'client' who is interested in both understanding the relationships in the data and being able to predict future observations
+header:
+  overlay_image: "/assets/images/courthouse.jpg"
+  teaser: "/assets/images/court.jpg"
+  caption: "Photo credit: [Iowa Judicial Branch](https://www.iowacourts.gov/)"
+---
+> models for a 'client' who is interested in both understanding the relationships in the data and being able to predict future observations
+
+**This is the final project for my Data Mining and General Linear Models Statistics Course.** We were tasked to use **R** to make
+
+1. A prediction tool that can be used to predict a 2-level (equivalently, binary) categorical outcome on
+new data
+2. A parsimonious GLM that can be used to help understand important relationships between the
+explanatory variables and your Y variable.
+3. Stupendous, meaningful data visualizations that strengthen findings of predictive and descriptive models.
+
+with the final models to be put into **automated production to aid in both forecasting and understanding.** 
+
+- [Github Repo](https://github.com/orgilemu/Stat_172_Final_Project)
+
+<iframe 
+  src="/assets/images/DiscriminationPrediction.pdf" 
+  width="100%" 
+  height="600px" 
+  style="border: none;">
+</iframe>
+
+### Additional work:

@@ -3,7 +3,7 @@ layout: posts
 title:  "Retrieval Augmented Generation Chatbot"
 date:   2024-05-09 19:36:07 +0000
 categories: work
-tags: AI Python
+tags: AI/ML Python
 description: A project where I improved a chatbot using RAG and semantic search.
 header:
   overlay_image: "/assets/images/background4.jpg"
