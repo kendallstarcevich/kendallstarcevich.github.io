@@ -130,10 +130,24 @@ This experience has sharpened my abilities in **multitasking**, **time managemen
 ### Download:
 
 <a id="resume"></a>
+
+**Resume** 
+<iframe 
+  src="/assets/images/Kendall_StarcevichResume2026.pdf" 
+  width="100%" 
+  height="600px" 
+  style="border: none;">
+</iframe>
+
 <a id="transcript"></a>
 
-- <a href="/assets/images/Kendall_StarcevichResume2025.pdf" download>Resume</a>
 
-- <a href="/assets/images/KendallStarcevichTranscript2025.pdf" download>Unofficial Transcript</a>
+**Unofficial Transcript** 
+<iframe 
+  src="/assets/images/KendallStarcevichTranscript2026.pdf" 
+  width="100%" 
+  height="600px" 
+  style="border: none;">
+</iframe>
 
 <a href="#page-title" class="back-to-top">Back to Top ↑</a>

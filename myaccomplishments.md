@@ -20,9 +20,13 @@ Below you will find some of my awards and scholarships that I have recieved.
 **KC Star Scholar Athlete**: Awarded to the most outstanding student-athlete per high school.
 
 ## Scholarships
-**Drake University National Alumni Trustee Scholarship**: Drake's **most competitive** scholarship program, awarded to outstanding first-year students
+**Drake University National Alumni Trustee Scholarship**: Drake's *most competitive* scholarship program, awarded to outstanding first-year students
 
 **Iowa Insurance Hall of Fame Scholarship**: [My scholarship announcement](https://iihof.org/recipients/kendall-starcevich/)
+
+**Drake University Presidential Scholar Scholarship**
+
+**Drake University Womens Soccer Tuition and Board Scholarship**
 
 **KC STEM American Heart Association Scholarship**: Awarded to a female demonstrating maturity, motivation, self-confidence, leadership, interest & commitment to STEM, and potential for success.
 
@@ -30,4 +34,4 @@ Below you will find some of my awards and scholarships that I have recieved.
 
 **Olathe Noon Lions Nellie Briggs Scholarship**
 
-**American Legion Auxillary Scholarship**
+**American Legion Auxiliary Scholarship**
